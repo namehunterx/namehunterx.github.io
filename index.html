@@ -1,0 +1,454 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="aurapay" content="69d579a39e07e">
+  <title data-i18n="index.title">NameHunter</title>
+  <meta name="description" data-i18n-content="index.desc" content="NameHunter - сервис внутри Telegram для поиска юзернеймов, AURUM, бонусов, безопасных сделок и маркета." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html">
+        <div class="brand-mark">N</div>
+        <div>
+          <strong>NameHunter</strong>
+          <span data-i18n="common.brand_sub">Поиск ников и безопасный маркет</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a class="is-active" href="./index.html" data-i18n="common.nav.home">Главная</a>
+        <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
+        <a href="./aurum.html" data-i18n="common.nav.aurum">AURUM</a>
+        <a href="./market.html" data-i18n="common.nav.market">Маркет</a>
+        <a href="./updates.html" data-i18n="common.nav.updates">Обновления</a>
+        <a href="./privacy.html" data-i18n="common.nav.privacy">Политика</a>
+        <a href="./terms.html" data-i18n="common.nav.terms">Условия</a>
+        <a href="./contacts.html" data-i18n="common.nav.contacts">Контакты</a>
+        <div class="nav-tools"><div class="tool-dropdown"><button class="view-trigger" type="button" id="view-trigger">Вид</button><div class="view-menu" id="view-menu"><button class="view-btn" type="button" data-density-mode="default">100%</button><button class="view-btn" type="button" data-density-mode="compact">92%</button><button class="view-btn" type="button" data-density-mode="tight">86%</button></div></div><div class="tool-dropdown"><button class="lang-trigger" type="button" id="lang-trigger">Язык</button><div class="lang-menu" id="lang-menu"><button class="lang-btn" type="button" data-lang="ru">Русский</button><button class="lang-btn" type="button" data-lang="en">English</button><button class="lang-btn" type="button" data-lang="es">Español</button></div></div></div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card glass fade">
+          <div class="badge" data-i18n="index.badge">Сервис, в который хочется возвращаться, а не просто один раз проверить ник</div>
+          <h1><span class="gradient">NameHunter</span><br><span data-i18n="index.h1">объединяет поиск, AURUM, бонусы и маркет в одном сервисе</span></h1>
+          <p class="hero-text" data-i18n="index.intro">Ищи свободные Telegram-юзернеймы, открывай AURUM, активируй бонусы, используй баланс и работай с маркетом через понятный интерфейс внутри одного проекта.</p>
+          <div class="hero-stats">
+            <div class="hero-stat"><strong data-i18n="index.stat1t">Поиск</strong><span data-i18n="index.stat1d">длина, слово, маска и пакеты</span></div>
+            <div class="hero-stat"><strong data-i18n="index.stat2t">AURUM</strong><span data-i18n="index.stat2d">быстрый режим и гибкие сценарии</span></div>
+            <div class="hero-stat"><strong data-i18n="index.stat3t">Маркет</strong><span data-i18n="index.stat3d">safe deal, отзывы и контроль</span></div>
+          </div>
+          <div class="tags">
+            <span data-i18n="index.tag1">Свободные юзернеймы</span>
+            <span data-i18n="index.tag2">Безопасные сделки</span>
+            <span data-i18n="index.tag3">Промокоды и бонусы</span>
+            <span data-i18n="index.tag4">Внутренний баланс</span>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="index.cta1">Запустить NameHunter</a>
+            <a class="btn secondary" href="./about.html" data-i18n="index.cta2">Узнать о сервисе</a>
+          </div>
+        </div>
+
+        <aside class="promo-stage glass fade d1">
+          <div class="stage-top">
+            <span class="stage-pill" data-i18n="index.promoTop1">Промокоды NameHunter</span>
+            <span class="stage-pill" data-i18n="index.promoTop2">10 промокодов в день</span>
+          </div>
+          <div class="promo-box">
+            <div class="promo-kicker" data-i18n="index.promoKick">Промокоды на сегодня</div>
+            <div class="promo-subline" data-i18n="index.promoSub">Каждый день в 05:00 МСК сайт собирает новую десятку промокодов и крутит их в живом формате.</div>
+            <div class="promo-rotator" id="promo-rotator">
+              <div class="promo-label" data-i18n="common.promo_day">Промокоды дня</div>
+              <div class="promo-code" id="promo-code">HUNTER10</div>
+              <div class="promo-note" id="promo-note">Стартовый дроп для быстрого входа в NameHunter.</div>
+              <div class="promo-meta">
+                <div class="promo-timer"><span data-i18n="common.next_switch">Следующая смена:</span> <b id="promo-timer">10с</b></div>
+                <div class="promo-timer"><span data-i18n="common.daily_refresh">Новая подборка:</span> <b id="promo-day-reset">00:00:00</b></div>
+                <div class="promo-status"><span data-i18n="common.today_count">Сегодня:</span> <b id="promo-day-count">1 / 10</b></div>
+              </div>
+              <div class="promo-tools">
+                <button class="promo-copy" id="promo-copy" type="button" data-i18n="common.copy">Скопировать</button>
+                <a class="promo-open" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="common.open_bot">Открыть бота</a>
+              </div>
+              <div class="promo-toast" id="promo-toast" data-i18n="common.copied">Промокод скопирован</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-shell">
+        <div class="head fade">
+          <div class="kicker" data-i18n="index.whyKick">Почему сервис удобен</div>
+          <h2 class="title" data-i18n="index.whyTitle">Ключевые сценарии собраны в одном месте и не требуют лишней ручной рутины</h2>
+          <p class="subtitle" data-i18n="index.whySub">Главная стала чище и быстрее: важные разделы рядом, витрина промокодов работает отдельно, а переходы к AURUM, маркету и правилам больше не теряются в длинной странице.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="card glass feature-card fade d1"><div class="icon">🔎</div><h3 data-i18n="index.f1t">Умный поиск</h3><p data-i18n="index.f1d">Подбор свободных юзернеймов по длине, слову, маске и пакетам в одном сценарии без лишней путаницы.</p></article>
+          <article class="card glass feature-card fade d2"><div class="icon">💎</div><h3 data-i18n="index.f2t">AURUM-режим</h3><p data-i18n="index.f2d">Премиум-режим с быстрыми форматами, дополнительными лимитами, подарками и более гибкой логикой поиска.</p></article>
+          <article class="card glass feature-card fade d3"><div class="icon">🎁</div><h3 data-i18n="index.f3t">Бонусы и промокоды</h3><p data-i18n="index.f3d">Ежедневные награды, пользовательские и системные промокоды, бонусные сценарии и подарки за активность.</p></article>
+          <article class="card glass feature-card fade d1"><div class="icon">🛒</div><h3 data-i18n="index.f4t">Маркет и safe deal</h3><p data-i18n="index.f4d">Карточки лотов, отзывы, заморозка денег, подтверждение передачи и ручной контроль спорных ситуаций.</p></article>
+        </div>
+        <div class="stat-strip fade d2">
+          <div class="stat-tile"><strong data-i18n="index.st1t">Поддержка</strong><span data-i18n="index.st1d">Основные вопросы, споры и рабочие процессы решаются внутри Telegram.</span></div>
+          <div class="stat-tile"><strong data-i18n="index.st2t">Платежи</strong><span data-i18n="index.st2d">Внутренний баланс, СБП и карта в логике сервиса без лишних внешних шагов.</span></div>
+          <div class="stat-tile"><strong data-i18n="index.st3t">Юридическая база</strong><span data-i18n="index.st3d">Политика, условия использования и контакты вынесены на отдельные страницы.</span></div>
+          <div class="stat-tile"><strong data-i18n="index.st4t">Гибкость</strong><span data-i18n="index.st4d">Выбранный язык сохраняется и сразу работает на всех страницах сайта.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-shell">
+        <div class="head fade">
+          <div class="kicker" data-i18n="index.quickKick">Быстрые разделы</div>
+          <h2 class="title" data-i18n="index.quickTitle">Нужный раздел можно открыть за один переход</h2>
+          <p class="subtitle" data-i18n="index.quickSub">Мы убрали лишний шум и вынесли важные сценарии в отдельные страницы, чтобы сайт ощущался как сервис, а не как перегруженный лендинг.</p>
+        </div>
+        <div class="quick-grid">
+          <a class="quick-card glass fade d1" href="./about.html"><span class="quick-mark">01</span><h3 data-i18n="index.q1t">О сервисе</h3><p data-i18n="index.q1d">Коротко и по делу о том, как устроен NameHunter внутри Telegram.</p></a>
+          <a class="quick-card glass fade d2" href="./aurum.html"><span class="quick-mark">02</span><h3 data-i18n="index.q2t">AURUM</h3><p data-i18n="index.q2d">Премиум-режим, быстрые сценарии и дополнительные возможности проекта.</p></a>
+          <a class="quick-card glass fade d3" href="./market.html"><span class="quick-mark">03</span><h3 data-i18n="index.q3t">Маркет</h3><p data-i18n="index.q3d">Безопасная логика сделок, карточки лотов, отзывы и работа через safe deal.</p></a>
+          <a class="quick-card glass fade d1" href="./updates.html"><span class="quick-mark">04</span><h3 data-i18n="index.q4t">Обновления</h3><p data-i18n="index.q4d">Лента развития проекта: от запуска бота до сайта, маркета и отзывов.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-grid">
+        <article class="card glass fade d1">
+          <div class="kicker" data-i18n="index.howKick">Как работает</div>
+          <h2 class="title" style="margin-bottom:12px;" data-i18n="index.howTitle">От первого запуска до покупки юзернейма</h2>
+          <div class="doc-grid" style="grid-template-columns: 1fr; gap: 14px;">
+            <div class="doc-card glass"><h3 data-i18n="index.hstep1t">1. Запуск и поиск</h3><p data-i18n="index.hstep1d">Пользователь открывает бота, выбирает формат поиска и получает подборку свободных вариантов под свою задачу.</p></div>
+            <div class="doc-card glass"><h3 data-i18n="index.hstep2t">2. Бонусы, баланс, AURUM</h3><p data-i18n="index.hstep2d">При необходимости можно активировать бонусы, использовать промокоды, пополнить баланс или открыть AURUM для расширенных функций.</p></div>
+            <div class="doc-card glass"><h3 data-i18n="index.hstep3t">3. Маркет и сделки</h3><p data-i18n="index.hstep3d">Если нужен готовый ник, пользователь переходит в маркет, открывает карточку лота и работает через безопасную логику сделки.</p></div>
+          </div>
+        </article>
+        <article class="card glass fade d2">
+          <div class="kicker" data-i18n="index.safeKick">Безопасность</div>
+          <h2 class="title" style="margin-bottom:12px;" data-i18n="index.safeTitle">Сделки сопровождаются логикой контроля, а не просто переводом денег</h2>
+          <div class="notice-strong" data-i18n="index.safeBody">В маркете используется понятный безопасный сценарий: сумма может резервироваться до подтверждения, продавец передает юзернейм, покупатель подтверждает получение, а спорные ситуации разбираются через внутренние процессы сервиса. Это не заменяет личную осторожность, но делает процесс заметно понятнее и спокойнее.</div>
+          <div class="pill-list" style="margin-top:16px;">
+            <span data-i18n="index.safeP1">safe deal</span>
+            <span data-i18n="index.safeP2">отзывы и репутация</span>
+            <span data-i18n="index.safeP3">поддержка 24/7</span>
+            <span data-i18n="index.safeP4">рабочие чаты проекта</span>
+          </div>
+          <div class="status-board" style="margin-top:18px;">
+            <div class="status-item"><span class="status-dot live"></span><b data-i18n="index.sb1t">Бот</b><span data-i18n="index.sb1d">онлайн</span></div>
+            <div class="status-item"><span class="status-dot live"></span><b data-i18n="index.sb2t">Маркет</b><span data-i18n="index.sb2d">активен</span></div>
+            <div class="status-item"><span class="status-dot live"></span><b data-i18n="index.sb3t">Промокоды</b><span data-i18n="index.sb3d">ротация работает</span></div>
+          </div>
+          <div class="actions" style="margin-top:18px;"><a class="btn secondary" href="./market.html" data-i18n="index.safeBtn">Перейти в раздел маркета</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <div class="footer-note" data-i18n="common.footer_service">© NameHunter. Сервис внутри Telegram для поиска свободных юзернеймов, бонусов, AURUM и безопасных сделок.</div>
+      <div class="links">
+        <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
+        <a href="./privacy.html" data-i18n="common.nav.privacy">Политика</a>
+        <a href="./terms.html" data-i18n="common.nav.terms">Условия</a>
+        <a href="./contacts.html" data-i18n="common.nav.contacts">Контакты</a>
+      </div>
+    </div>
+  </footer>
+
+  <script id="i18n-data" type="application/json">
+{
+  "ru": {
+    "common": {
+      "brand_sub":"Поиск ников и безопасный маркет",
+      "nav":{"home":"Главная","about":"О сервисе","aurum":"AURUM","market":"Маркет","updates":"Обновления","privacy":"Политика","terms":"Условия","contacts":"Контакты"},
+      "footer_service":"© NameHunter. Сервис внутри Telegram для поиска свободных юзернеймов, бонусов, AURUM и безопасных сделок.",
+      "open_bot":"Открыть бота",
+      "copied":"Промокод скопирован",
+      "copy":"Скопировать",
+      "copied_btn":"Скопировано",
+      "error_btn":"Ошибка",
+      "live":"LIVE",
+      "next_switch":"Следующая смена:",
+      "promo_day":"Промокоды дня"
+    },
+    "index": {
+      "title":"NameHunter",
+      "desc":"NameHunter - сервис внутри Telegram для поиска юзернеймов, AURUM, бонусов, безопасных сделок и маркета.",
+      "badge":"Сервис, в который хочется возвращаться, а не просто один раз проверить ник",
+      "h1":"объединяет поиск, AURUM, бонусы и маркет в одном сервисе",
+      "intro":"Ищи свободные Telegram-юзернеймы, открывай AURUM, активируй бонусы, используй баланс и работай с маркетом через понятный интерфейс внутри одного проекта.",
+      "stat1t":"Поиск",
+      "stat1d":"длина, слово, маска и пакеты",
+      "stat2t":"AURUM",
+      "stat2d":"быстрый режим и гибкие сценарии",
+      "stat3t":"Маркет",
+      "stat3d":"safe deal, отзывы и контроль",
+      "tag1":"Свободные юзернеймы",
+      "tag2":"Безопасные сделки",
+      "tag3":"Промокоды и бонусы",
+      "tag4":"Внутренний баланс",
+      "cta1":"Запустить NameHunter",
+      "cta2":"Узнать о сервисе",
+      "promoTop1":"Промокоды NameHunter",
+      "promoTop2":"10 промокодов в день",
+      "promoKick":"Промокоды на сегодня",
+      "promoSub":"Каждый день в 05:00 МСК сайт собирает новую десятку промокодов и крутит их в живом формате.",
+      "promoStatus":"Статус:",
+      "whyKick":"Почему сервис удобен",
+      "whyTitle":"Ключевые сценарии собраны в одном месте и не требуют лишней ручной рутины",
+      "whySub":"Главная стала чище и быстрее: важные разделы рядом, витрина промокодов работает отдельно, а переходы к AURUM, маркету и правилам больше не теряются в длинной странице.",
+      "f1t":"Умный поиск",
+      "f1d":"Подбор свободных юзернеймов по длине, слову, маске и пакетам в одном сценарии без лишней путаницы.",
+      "f2t":"AURUM-режим",
+      "f2d":"Премиум-режим с быстрыми форматами, дополнительными лимитами, подарками и более гибкой логикой поиска.",
+      "f3t":"Бонусы и промокоды",
+      "f3d":"Ежедневные награды, пользовательские и системные промокоды, бонусные сценарии и подарки за активность.",
+      "f4t":"Маркет и safe deal",
+      "f4d":"Карточки лотов, отзывы, заморозка денег, подтверждение передачи и ручной контроль спорных ситуаций.",
+      "st1t":"Поддержка",
+      "st1d":"Основные вопросы, споры и рабочие процессы решаются внутри Telegram.",
+      "st2t":"Платежи",
+      "st2d":"Внутренний баланс, СБП и карта в логике сервиса без лишних внешних шагов.",
+      "st3t":"Юридическая база",
+      "st3d":"Политика, условия использования и контакты вынесены на отдельные страницы.",
+      "st4t":"Гибкость",
+      "st4d":"Выбранный язык сохраняется и сразу работает на всех страницах сайта.",
+      "quickKick":"Быстрые разделы",
+      "quickTitle":"Нужный раздел можно открыть за один переход",
+      "quickSub":"Мы убрали лишний шум и вынесли важные сценарии в отдельные страницы, чтобы сайт ощущался как сервис, а не как перегруженный лендинг.",
+      "q1t":"О сервисе",
+      "q1d":"Коротко и по делу о том, как устроен NameHunter внутри Telegram.",
+      "q2t":"AURUM",
+      "q2d":"Премиум-режим, быстрые сценарии и дополнительные возможности проекта.",
+      "q3t":"Маркет",
+      "q3d":"Безопасная логика сделок, карточки лотов, отзывы и работа через safe deal.",
+      "q4t":"Обновления",
+      "q4d":"Лента развития проекта: от запуска бота до сайта, маркета и отзывов.",
+      "howKick":"Как работает",
+      "howTitle":"От первого запуска до покупки юзернейма",
+      "hstep1t":"1. Запуск и поиск",
+      "hstep1d":"Пользователь открывает бота, выбирает формат поиска и получает подборку свободных вариантов под свою задачу.",
+      "hstep2t":"2. Бонусы, баланс, AURUM",
+      "hstep2d":"При необходимости можно активировать бонусы, использовать промокоды, пополнить баланс или открыть AURUM для расширенных функций.",
+      "hstep3t":"3. Маркет и сделки",
+      "hstep3d":"Если нужен готовый ник, пользователь переходит в маркет, открывает карточку лота и работает через безопасную логику сделки.",
+      "safeKick":"Безопасность",
+      "safeTitle":"Сделки сопровождаются логикой контроля, а не просто переводом денег",
+      "safeBody":"В маркете используется понятный безопасный сценарий: сумма может резервироваться до подтверждения, продавец передает юзернейм, покупатель подтверждает получение, а спорные ситуации разбираются через внутренние процессы сервиса. Это не заменяет личную осторожность, но делает процесс заметно понятнее и спокойнее.",
+      "safeP1":"safe deal",
+      "safeP2":"отзывы и репутация",
+      "safeP3":"поддержка 24/7",
+      "safeP4":"рабочие чаты проекта",
+      "sb1t":"Бот",
+      "sb1d":"онлайн",
+      "sb2t":"Маркет",
+      "sb2d":"активен",
+      "sb3t":"Промокоды",
+      "sb3d":"ротация работает",
+      "safeBtn":"Перейти в раздел маркета"
+    }
+  },
+  "en": {
+    "common": {
+      "brand_sub":"Username search and safe marketplace",
+      "nav":{"home":"Home","about":"About","aurum":"AURUM","market":"Market","updates":"Updates","privacy":"Privacy","terms":"Terms","contacts":"Contacts"},
+      "footer_service":"© NameHunter. A Telegram service for free username search, bonuses, AURUM and safe deals.",
+      "open_bot":"Open bot",
+      "copied":"Promo code copied",
+      "copy":"Copy",
+      "copied_btn":"Copied",
+      "error_btn":"Error",
+      "live":"LIVE",
+      "next_switch":"Next change:",
+      "promo_day":"Promo codes of the day"
+    },
+    "index": {
+      "title":"NameHunter",
+      "desc":"NameHunter is a Telegram service for username search, AURUM, bonuses, safe deals and marketplace.",
+      "badge":"A service you want to return to, not just check once",
+      "h1":"combines search, AURUM, bonuses and the marketplace in one service",
+      "intro":"Search free Telegram usernames, enable AURUM, activate bonuses, use internal balance and work with the marketplace through one clear interface.",
+      "stat1t":"Search",
+      "stat1d":"length, word, mask and package search",
+      "stat2t":"AURUM",
+      "stat2d":"fast mode and flexible flows",
+      "stat3t":"Market",
+      "stat3d":"safe deal, reviews and control",
+      "tag1":"Free usernames",
+      "tag2":"Safe deals",
+      "tag3":"Promo codes and bonuses",
+      "tag4":"Internal balance",
+      "cta1":"Launch NameHunter",
+      "cta2":"Learn about the service",
+      "promoTop1":"NameHunter promo codes",
+      "promoTop2":"10 promo codes per day",
+      "promoKick":"Today's promo set",
+      "promoSub":"Every day at 05:00 MSK the site builds a new set of ten promo codes and rotates them live.",
+      "promoStatus":"Status:",
+      "whyKick":"Why it feels convenient",
+      "whyTitle":"Core scenarios stay in one place without extra manual routine",
+      "whySub":"The homepage is cleaner and faster now: key sections are close, promo rotation is separate, and paths to AURUM, market and legal pages are easier to find.",
+      "f1t":"Smart search",
+      "f1d":"Find free usernames by length, word, mask and packages in one clear scenario.",
+      "f2t":"AURUM mode",
+      "f2d":"Premium mode with faster flows, extra limits, gifts and more flexible search logic.",
+      "f3t":"Bonuses and promo codes",
+      "f3d":"Daily rewards, user and system promo codes, bonus flows and activity gifts.",
+      "f4t":"Marketplace and safe deal",
+      "f4d":"Lot cards, reviews, frozen funds, transfer confirmation and manual dispute control.",
+      "st1t":"Support",
+      "st1d":"Core questions, disputes and workflows are handled inside Telegram.",
+      "st2t":"Payments",
+      "st2d":"Internal balance, SBP and card payments stay inside the service logic.",
+      "st3t":"Legal base",
+      "st3d":"Privacy, terms and contact info live on dedicated pages.",
+      "st4t":"Flexibility",
+      "st4d":"The selected language is saved and instantly works across all pages.",
+      "quickKick":"Quick sections",
+      "quickTitle":"Open the needed section in one move",
+      "quickSub":"We removed extra noise and split the key scenarios into separate pages so the website feels like a real service, not an overloaded landing page.",
+      "q1t":"About",
+      "q1d":"A short and clear overview of how NameHunter works inside Telegram.",
+      "q2t":"AURUM",
+      "q2d":"Premium mode, faster flows and extra project features.",
+      "q3t":"Market",
+      "q3d":"Safe deal logic, lot cards, reviews and controlled transfer flow.",
+      "q4t":"Updates",
+      "q4d":"Project timeline from bot launch to site, market and review system.",
+      "howKick":"How it works",
+      "howTitle":"From first launch to buying a username",
+      "hstep1t":"1. Launch and search",
+      "hstep1d":"The user opens the bot, chooses a search format and gets a selection of free options for the task.",
+      "hstep2t":"2. Bonuses, balance, AURUM",
+      "hstep2d":"If needed, the user activates bonuses, applies promo codes, tops up balance or enables AURUM.",
+      "hstep3t":"3. Market and deals",
+      "hstep3d":"If a ready-made username is needed, the user opens the market and works through a safe deal flow.",
+      "safeKick":"Safety",
+      "safeTitle":"Deals are backed by control logic, not just a money transfer",
+      "safeBody":"The marketplace uses a clear safer flow: funds may be reserved until confirmation, the seller transfers the username, the buyer confirms receipt, and disputes are handled through internal service processes. It does not replace personal caution, but it makes the process much clearer and calmer.",
+      "safeP1":"safe deal",
+      "safeP2":"reviews and reputation",
+      "safeP3":"24/7 support",
+      "safeP4":"project work chats",
+      "sb1t":"Bot",
+      "sb1d":"online",
+      "sb2t":"Market",
+      "sb2d":"active",
+      "sb3t":"Promo codes",
+      "sb3d":"rotation running",
+      "safeBtn":"Open market section"
+    }
+  },
+  "es": {
+    "common": {
+      "brand_sub":"Busqueda de nombres y mercado seguro",
+      "nav":{"home":"Inicio","about":"Servicio","aurum":"AURUM","market":"Mercado","updates":"Actualizaciones","privacy":"Privacidad","terms":"Condiciones","contacts":"Contactos"},
+      "footer_service":"© NameHunter. Un servicio de Telegram para buscar usernames libres, bonos, AURUM y operaciones seguras.",
+      "open_bot":"Abrir bot",
+      "copied":"Codigo promocional copiado",
+      "copy":"Copiar",
+      "copied_btn":"Copiado",
+      "error_btn":"Error",
+      "live":"LIVE",
+      "next_switch":"Siguiente cambio:",
+      "promo_day":"Promocodes del dia"
+    },
+    "index": {
+      "title":"NameHunter",
+      "desc":"NameHunter es un servicio de Telegram para buscar usernames, AURUM, bonos, operaciones seguras y mercado.",
+      "badge":"Un servicio al que quieres volver, no solo revisar una vez",
+      "h1":"une busqueda, AURUM, bonos y mercado en un solo servicio",
+      "intro":"Busca usernames libres de Telegram, activa AURUM, usa bonos, saldo interno y trabaja con el mercado desde una interfaz clara.",
+      "stat1t":"Busqueda",
+      "stat1d":"longitud, palabra, mascara y paquetes",
+      "stat2t":"AURUM",
+      "stat2d":"modo rapido y flujos flexibles",
+      "stat3t":"Mercado",
+      "stat3d":"safe deal, reseñas y control",
+      "tag1":"Usernames libres",
+      "tag2":"Operaciones seguras",
+      "tag3":"Promocodes y bonos",
+      "tag4":"Saldo interno",
+      "cta1":"Abrir NameHunter",
+      "cta2":"Conocer el servicio",
+      "promoTop1":"Promocodes NameHunter",
+      "promoTop2":"10 promocodes por dia",
+      "promoKick":"Promocodes de hoy",
+      "promoSub":"Cada dia a las 05:00 MSK el sitio forma una nueva decena de promocodes y la rota en vivo.",
+      "promoStatus":"Estado:",
+      "whyKick":"Por que es comodo",
+      "whyTitle":"Los escenarios clave estan reunidos en un solo lugar sin rutina manual extra",
+      "whySub":"La pagina principal ahora es mas limpia y rapida: secciones importantes cerca, la rotacion de promocodes separada y accesos mas claros a AURUM, mercado y reglas.",
+      "f1t":"Busqueda inteligente",
+      "f1d":"Seleccion de usernames libres por longitud, palabra, mascara y paquetes en un solo flujo.",
+      "f2t":"Modo AURUM",
+      "f2d":"Modo premium con flujos mas rapidos, limites extra, regalos y busqueda mas flexible.",
+      "f3t":"Bonos y promocodes",
+      "f3d":"Recompensas diarias, promocodes del sistema y del usuario, bonus y regalos por actividad.",
+      "f4t":"Mercado y safe deal",
+      "f4d":"Tarjetas de lotes, reseñas, congelacion del dinero, confirmacion de entrega y control manual de disputas.",
+      "st1t":"Soporte",
+      "st1d":"Preguntas clave, disputas y flujos de trabajo se resuelven dentro de Telegram.",
+      "st2t":"Pagos",
+      "st2d":"Saldo interno, SBP y tarjeta dentro de la logica del servicio.",
+      "st3t":"Base legal",
+      "st3d":"Privacidad, condiciones y contactos en paginas separadas.",
+      "st4t":"Flexibilidad",
+      "st4d":"El idioma elegido se guarda y funciona en todas las paginas.",
+      "quickKick":"Secciones rapidas",
+      "quickTitle":"Abre la seccion necesaria en un solo paso",
+      "quickSub":"Quitamos ruido visual y separamos los escenarios clave en paginas individuales para que el sitio se sienta como un servicio real.",
+      "q1t":"Servicio",
+      "q1d":"Resumen breve y claro de como funciona NameHunter dentro de Telegram.",
+      "q2t":"AURUM",
+      "q2d":"Modo premium, flujos mas rapidos y funciones extra del proyecto.",
+      "q3t":"Mercado",
+      "q3d":"Logica safe deal, tarjetas de lotes, reseñas y entrega controlada.",
+      "q4t":"Actualizaciones",
+      "q4d":"Linea del proyecto desde el bot hasta el sitio, mercado y reseñas.",
+      "howKick":"Como funciona",
+      "howTitle":"Desde el primer inicio hasta comprar un username",
+      "hstep1t":"1. Inicio y busqueda",
+      "hstep1d":"El usuario abre el bot, elige un formato de busqueda y recibe una seleccion de variantes libres.",
+      "hstep2t":"2. Bonos, saldo, AURUM",
+      "hstep2d":"Si hace falta, el usuario activa bonos, aplica promocodes, recarga saldo o abre AURUM.",
+      "hstep3t":"3. Mercado y operaciones",
+      "hstep3d":"Si hace falta un username ya listo, el usuario abre el mercado y trabaja mediante una operacion segura.",
+      "safeKick":"Seguridad",
+      "safeTitle":"Las operaciones tienen logica de control, no solo transferencia de dinero",
+      "safeBody":"El mercado usa un flujo mas claro y seguro: el dinero puede reservarse hasta la confirmacion, el vendedor transfiere el username, el comprador confirma y las disputas se resuelven mediante procesos internos del servicio. No sustituye la prudencia personal, pero hace el proceso mucho mas claro y tranquilo.",
+      "safeP1":"safe deal",
+      "safeP2":"reseñas y reputacion",
+      "safeP3":"soporte 24/7",
+      "safeP4":"chats de trabajo",
+      "sb1t":"Bot",
+      "sb1d":"online",
+      "sb2t":"Mercado",
+      "sb2d":"activo",
+      "sb3t":"Promocodes",
+      "sb3d":"rotacion activa",
+      "safeBtn":"Abrir la seccion del mercado"
+    }
+  }
+}
+  </script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
+
+
+
+
