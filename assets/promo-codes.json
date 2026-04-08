@@ -1,0 +1,302 @@
+﻿[
+  {
+    "code": "HUNTER10",
+    "rarity": "common",
+    "rewards": [{"type": "topup_bonus", "value": 10}],
+    "hint": {
+      "ru": "Стартовый дроп для быстрого входа в NameHunter.",
+      "en": "Starter drop for a quick entry into NameHunter.",
+      "es": "Drop inicial para entrar rapido en NameHunter."
+    }
+  },
+  {
+    "code": "AURUMSTART",
+    "rarity": "common",
+    "rewards": [{"type": "aurum", "value": 1, "unit": "hours"}],
+    "hint": {
+      "ru": "Промо из премиум-подборки AURUM.",
+      "en": "Promo from the premium AURUM selection.",
+      "es": "Promo de la seleccion premium AURUM."
+    }
+  },
+  {
+    "code": "NICKDROP",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 3}],
+    "hint": {
+      "ru": "Промокод из подборки на ники и бонусные сценарии.",
+      "en": "Promo from the username and bonus flows set.",
+      "es": "Promocode de la seleccion para usernames y bonus."
+    }
+  },
+  {
+    "code": "MARKETVIP",
+    "rarity": "rare",
+    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
+    "hint": {
+      "ru": "Витринный код для маркета и safe deal.",
+      "en": "Showcase code for the market and safe deal.",
+      "es": "Codigo de vitrina para mercado y safe deal."
+    }
+  },
+  {
+    "code": "BONUS24",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 5}],
+    "hint": {
+      "ru": "Один из бонусных кодов ежедневной ленты.",
+      "en": "One of the daily bonus showcase codes.",
+      "es": "Uno de los codigos de bonus de la vitrina diaria."
+    }
+  },
+  {
+    "code": "REFBOOST",
+    "rarity": "common",
+    "rewards": [{"type": "discount", "value": 10}],
+    "hint": {
+      "ru": "Код из блока активности и реферальных механик.",
+      "en": "Code from the activity and referral mechanics block.",
+      "es": "Codigo del bloque de actividad y referidos."
+    }
+  },
+  {
+    "code": "SAFEDEAL",
+    "rarity": "common",
+    "rewards": [{"type": "aurum", "value": 30, "unit": "minutes"}],
+    "hint": {
+      "ru": "Промо из подборки по безопасным сделкам.",
+      "en": "Promo from the safe deal collection.",
+      "es": "Promo de la coleccion de operaciones seguras."
+    }
+  },
+  {
+    "code": "DAILYDROP",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 1}],
+    "hint": {
+      "ru": "Дневной код из живой ротации сайта.",
+      "en": "Daily code from the live site rotation.",
+      "es": "Codigo diario de la rotacion viva del sitio."
+    }
+  },
+  {
+    "code": "NICKWAVE",
+    "rarity": "common",
+    "rewards": [{"type": "aurum", "value": 1, "unit": "hours"}],
+    "hint": {
+      "ru": "Код из волны промо для поиска красивых ников.",
+      "en": "Code from the promo wave for clean usernames.",
+      "es": "Codigo de la ola promo para usernames bonitos."
+    }
+  },
+  {
+    "code": "FASTAURUM",
+    "rarity": "rare",
+    "rewards": [{"type": "aurum", "value": 6, "unit": "hours"}],
+    "hint": {
+      "ru": "Промо из быстрой AURUM-подборки.",
+      "en": "Promo from the fast AURUM set.",
+      "es": "Promo de la seleccion rapida de AURUM."
+    }
+  },
+  {
+    "code": "MARKETFIRE",
+    "rarity": "common",
+    "rewards": [{"type": "topup_bonus", "value": 25}],
+    "hint": {
+      "ru": "Один из кодов витрины для маркета.",
+      "en": "One of the showcase codes for the market.",
+      "es": "Uno de los codigos de vitrina del mercado."
+    }
+  },
+  {
+    "code": "GLOWNICK",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 5}],
+    "hint": {
+      "ru": "Промокод из яркой линейки NameHunter.",
+      "en": "Promo code from the bright NameHunter line.",
+      "es": "Promocode de la linea brillante de NameHunter."
+    }
+  },
+  {
+    "code": "HUNTBOOST",
+    "rarity": "common",
+    "rewards": [{"type": "discount", "value": 15}],
+    "hint": {
+      "ru": "Код на усиленную дневную подборку.",
+      "en": "Code for an enhanced daily selection.",
+      "es": "Codigo para una seleccion diaria reforzada."
+    }
+  },
+  {
+    "code": "AURUMNOW",
+    "rarity": "common",
+    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
+    "hint": {
+      "ru": "Промо из активной AURUM-ротации.",
+      "en": "Promo from the active AURUM rotation.",
+      "es": "Promo de la rotacion activa de AURUM."
+    }
+  },
+  {
+    "code": "RARENICK",
+    "rarity": "rare",
+    "rewards": [{"type": "balance", "value": 10}],
+    "hint": {
+      "ru": "Код из подборки под редкие и чистые ники.",
+      "en": "Code from the rare and clean username collection.",
+      "es": "Codigo de la seleccion de usernames raros y limpios."
+    }
+  },
+  {
+    "code": "VIOLETDROP",
+    "rarity": "common",
+    "rewards": [{"type": "topup_bonus", "value": 15}],
+    "hint": {
+      "ru": "Фирменный фиолетовый дроп сайта NameHunter.",
+      "en": "Signature violet website drop for NameHunter.",
+      "es": "Drop violeta de la web de NameHunter."
+    }
+  },
+  {
+    "code": "NAMEJET",
+    "rarity": "common",
+    "rewards": [{"type": "aurum", "value": 30, "unit": "minutes"}],
+    "hint": {
+      "ru": "Быстрый промокод из легкой ротации дня.",
+      "en": "Fast promo code from the light daily rotation.",
+      "es": "Codigo rapido de la rotacion diaria."
+    }
+  },
+  {
+    "code": "DEALLIVE",
+    "rarity": "common",
+    "rewards": [{"type": "discount", "value": 5}],
+    "hint": {
+      "ru": "Код из подборки safe deal и доверия.",
+      "en": "Code from the safe deal and trust selection.",
+      "es": "Codigo de la seleccion de safe deal y confianza."
+    }
+  },
+  {
+    "code": "BONUSFLOW",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 3}],
+    "hint": {
+      "ru": "Промокод из бонусного потока сервиса.",
+      "en": "Promo code from the service bonus flow.",
+      "es": "Promocode del flujo de bonus del servicio."
+    }
+  },
+  {
+    "code": "PROMOEDGE",
+    "rarity": "epic",
+    "rewards": [{"type": "aurum", "value": 1, "unit": "days"}],
+    "hint": {
+      "ru": "Острый код из ежедневной десятки.",
+      "en": "Sharp code from the daily top ten.",
+      "es": "Codigo potente de la decena diaria."
+    }
+  },
+  {
+    "code": "HUNTERMAX",
+    "rarity": "epic",
+    "rewards": [{"type": "topup_bonus", "value": 50}],
+    "hint": {
+      "ru": "Промо из усиленной линейки NameHunter.",
+      "en": "Promo from the enhanced NameHunter line.",
+      "es": "Promo de la linea reforzada de NameHunter."
+    }
+  },
+  {
+    "code": "NICKLINE",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 5}],
+    "hint": {
+      "ru": "Код из подборки на чистые ники и пакеты.",
+      "en": "Code from the clean usernames and package set.",
+      "es": "Codigo de la seleccion de usernames limpios y paquetes."
+    }
+  },
+  {
+    "code": "MARKETX",
+    "rarity": "rare",
+    "rewards": [{"type": "aurum", "value": 12, "unit": "hours"}],
+    "hint": {
+      "ru": "Промо из маркета с акцентом на сделки.",
+      "en": "Promo from the market side with deal focus.",
+      "es": "Promo del mercado con enfoque en operaciones."
+    }
+  },
+  {
+    "code": "AURUMPLUS",
+    "rarity": "rare",
+    "rewards": [{"type": "aurum", "value": 1, "unit": "days"}],
+    "hint": {
+      "ru": "Один из кодов премиальной линии AURUM.",
+      "en": "One of the codes from the premium AURUM line.",
+      "es": "Uno de los codigos de la linea premium AURUM."
+    }
+  },
+  {
+    "code": "DROPZONE",
+    "rarity": "common",
+    "rewards": [{"type": "discount", "value": 20}],
+    "hint": {
+      "ru": "Код из зоны ежедневных дропов.",
+      "en": "Code from the daily drop zone.",
+      "es": "Codigo de la zona de drops diarios."
+    }
+  },
+  {
+    "code": "NAMEPULSE",
+    "rarity": "common",
+    "rewards": [{"type": "balance", "value": 10}],
+    "hint": {
+      "ru": "Пульсирующий код из сайта и витрины.",
+      "en": "Pulse code from the site showcase.",
+      "es": "Codigo de pulso de la vitrina del sitio."
+    }
+  },
+  {
+    "code": "SAFEHUNT",
+    "rarity": "rare",
+    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
+    "hint": {
+      "ru": "Промокод на стыке поиска и safe deal.",
+      "en": "Promo code where search meets safe deal.",
+      "es": "Promocode entre busqueda y safe deal."
+    }
+  },
+  {
+    "code": "GIFTNICK",
+    "rarity": "epic",
+    "rewards": [{"type": "balance", "value": 15}],
+    "hint": {
+      "ru": "Код из подарочной линии NameHunter.",
+      "en": "Code from the NameHunter gift line.",
+      "es": "Codigo de la linea de regalos de NameHunter."
+    }
+  },
+  {
+    "code": "HYPERNAME",
+    "rarity": "epic",
+    "rewards": [{"type": "topup_bonus", "value": 25}],
+    "hint": {
+      "ru": "Промо из динамичной подборки сайта.",
+      "en": "Promo from the dynamic site selection.",
+      "es": "Promo de la seleccion dinamica del sitio."
+    }
+  },
+  {
+    "code": "HUNTERNOVA",
+    "rarity": "legendary",
+    "rewards": [{"type": "aurum", "value": 3, "unit": "days"}],
+    "hint": {
+      "ru": "Финальный код из расширенного пула витрины.",
+      "en": "Final code from the expanded showcase pool.",
+      "es": "Codigo final del pool ampliado de la vitrina."
+    }
+  }
+]
