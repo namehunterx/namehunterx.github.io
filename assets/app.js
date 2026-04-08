@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   const dailyPromoCount = 10;
   const dayDurationMs = 24 * 60 * 60 * 1000;
   const rotateEveryMs = dayDurationMs / dailyPromoCount;
@@ -9,7 +9,7 @@
   const translations = dataNode ? JSON.parse(dataNode.textContent) : null;
   const get = (obj, path) => path.split('.').reduce((acc, keyName) => (acc && acc[keyName] !== undefined ? acc[keyName] : undefined), obj);
 
-  const promoPool = [
+  const promoPoolFallback = [
     { code: 'HUNTER10', hint: { ru: 'Стартовый дроп для быстрого входа в NameHunter.', en: 'Starter drop for a quick entry into NameHunter.', es: 'Drop inicial para entrar rapido en NameHunter.' } },
     { code: 'AURUMSTART', hint: { ru: 'Промо из премиум-подборки AURUM.', en: 'Promo from the premium AURUM selection.', es: 'Promo de la seleccion premium AURUM.' } },
     { code: 'NICKDROP', hint: { ru: 'Промокод из подборки на ники и бонусные сценарии.', en: 'Promo from the username and bonus flows set.', es: 'Promocode de la seleccion para usernames y bonus.' } },
@@ -41,6 +41,8 @@
     { code: 'HYPERNAME', hint: { ru: 'Промо из динамичной подборки сайта.', en: 'Promo from the dynamic site selection.', es: 'Promo de la seleccion dinamica del sitio.' } },
     { code: 'HUNTERNOVA', hint: { ru: 'Финальный код из расширенного пула витрины.', en: 'Final code from the expanded showcase pool.', es: 'Codigo final del pool ampliado de la vitrina.' } }
   ];
+
+  let promoPool = promoPoolFallback.slice();
 
   const langButtons = Array.from(document.querySelectorAll('[data-lang]'));
   const densityButtons = Array.from(document.querySelectorAll('[data-density-mode]'));
@@ -102,10 +104,32 @@
   };
 
   const getPromoTier = (code) => {
-    if (legendaryCodes.has(code)) return 'legendary';
-    if (epicCodes.has(code)) return 'epic';
-    if (rareCodes.has(code)) return 'rare';
+    const promo = promoPool.find((item) => item.code === code);
+    const explicitTier = String((promo && promo.rarity) || '').toLowerCase();
+    if (explicitTier === 'legendary' || legendaryCodes.has(code)) return 'legendary';
+    if (explicitTier === 'epic' || epicCodes.has(code)) return 'epic';
+    if (explicitTier === 'rare' || rareCodes.has(code)) return 'rare';
     return 'common';
+  };
+
+  const loadPromoPool = async () => {
+    try {
+      const response = await fetch('./assets/promo-codes.json', { cache: 'no-store' });
+      if (!response.ok) return;
+      const data = await response.json();
+      if (!Array.isArray(data) || !data.length) return;
+      promoPool = data
+        .map((item) => ({
+          code: String(item.code || '').trim().toUpperCase(),
+          rarity: String(item.rarity || 'common').toLowerCase(),
+          rewards: Array.isArray(item.rewards) ? item.rewards : [],
+          hint: item.hint && typeof item.hint === 'object' ? item.hint : {},
+        }))
+        .filter((item) => item.code);
+      refreshPromoFrame();
+    } catch (error) {
+      console.warn('Promo pool fallback is used', error);
+    }
   };
 
   const mulberry32 = (seed) => {
@@ -242,6 +266,7 @@
   const savedDensity = localStorage.getItem('nh_density') || 'default';
   applyDensity(savedDensity);
   applyLanguage(savedLang);
+  loadPromoPool();
 
   langButtons.forEach((button) => button.addEventListener('click', () => {
     applyLanguage(button.dataset.lang);
@@ -330,6 +355,10 @@
   document.addEventListener('keydown', blockShortcut, true);
   document.addEventListener('keyup', blockShortcut, true);
 })();
+
+
+
+
 
 
 
