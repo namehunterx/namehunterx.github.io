@@ -4,9 +4,9 @@
       <div class="mobile-404-screen">
         <div class="mobile-404-box">
           <div class="mobile-404-code">404</div>
-          <div class="mobile-404-title">Сайт для телефона пока не готов</div>
-          <div class="mobile-404-text">Полная версия NameHunter сейчас доступна только на ПК. Открой сайт позже с компьютера или перейди сразу в Telegram-бота.</div>
-          <a class="mobile-404-btn" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer">Открыть бота</a>
+          <div class="mobile-404-title">Р В Р’В Р В Р вЂ№Р В Р’В Р вЂ™Р’В°Р В Р’В Р Р†РІР‚С›РІР‚вЂњР В Р Р‹Р Р†Р вЂљРЎв„ў Р В Р’В Р СћРІР‚ВР В Р’В Р вЂ™Р’В»Р В Р Р‹Р В Р РЏ Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’ВµР В Р’В Р вЂ™Р’В»Р В Р’В Р вЂ™Р’ВµР В Р Р‹Р Р†Р вЂљРЎвЂєР В Р’В Р РЋРІР‚СћР В Р’В Р В РІР‚В¦Р В Р’В Р вЂ™Р’В° Р В Р’В Р РЋРІР‚вЂќР В Р’В Р РЋРІР‚СћР В Р’В Р РЋРІР‚СњР В Р’В Р вЂ™Р’В° Р В Р’В Р В РІР‚В¦Р В Р’В Р вЂ™Р’Вµ Р В Р’В Р РЋРІР‚вЂњР В Р’В Р РЋРІР‚СћР В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р РЋРІР‚СћР В Р’В Р В РІР‚В </div>
+          <div class="mobile-404-text">Р В Р’В Р РЋРЎСџР В Р’В Р РЋРІР‚СћР В Р’В Р вЂ™Р’В»Р В Р’В Р В РІР‚В¦Р В Р’В Р вЂ™Р’В°Р В Р Р‹Р В Р РЏ Р В Р’В Р В РІР‚В Р В Р’В Р вЂ™Р’ВµР В Р Р‹Р В РІР‚С™Р В Р Р‹Р В РЎвЂњР В Р’В Р РЋРІР‚ВР В Р Р‹Р В Р РЏ NameHunter Р В Р Р‹Р В РЎвЂњР В Р’В Р вЂ™Р’ВµР В Р’В Р Р†РІР‚С›РІР‚вЂњР В Р Р‹Р Р†Р вЂљР Р‹Р В Р’В Р вЂ™Р’В°Р В Р Р‹Р В РЎвЂњ Р В Р’В Р СћРІР‚ВР В Р’В Р РЋРІР‚СћР В Р Р‹Р В РЎвЂњР В Р Р‹Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРІР‚СљР В Р’В Р РЋРІР‚вЂќР В Р’В Р В РІР‚В¦Р В Р’В Р вЂ™Р’В° Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р РЋРІР‚СћР В Р’В Р вЂ™Р’В»Р В Р Р‹Р В Р вЂ°Р В Р’В Р РЋРІР‚СњР В Р’В Р РЋРІР‚Сћ Р В Р’В Р В РІР‚В¦Р В Р’В Р вЂ™Р’В° Р В Р’В Р РЋРЎСџР В Р’В Р РЋРІвЂћСћ. Р В Р’В Р РЋРІР‚С”Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р РЋРІР‚СњР В Р Р‹Р В РІР‚С™Р В Р’В Р РЋРІР‚СћР В Р’В Р Р†РІР‚С›РІР‚вЂњ Р В Р Р‹Р В РЎвЂњР В Р’В Р вЂ™Р’В°Р В Р’В Р Р†РІР‚С›РІР‚вЂњР В Р Р‹Р Р†Р вЂљРЎв„ў Р В Р’В Р РЋРІР‚вЂќР В Р’В Р РЋРІР‚СћР В Р’В Р вЂ™Р’В·Р В Р’В Р вЂ™Р’В¶Р В Р’В Р вЂ™Р’Вµ Р В Р Р‹Р В РЎвЂњ Р В Р’В Р РЋРІР‚СњР В Р’В Р РЋРІР‚СћР В Р’В Р РЋР’ВР В Р’В Р РЋРІР‚вЂќР В Р Р‹Р В Р вЂ°Р В Р Р‹Р В РІР‚в„–Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’ВµР В Р Р‹Р В РІР‚С™Р В Р’В Р вЂ™Р’В° Р В Р’В Р РЋРІР‚ВР В Р’В Р вЂ™Р’В»Р В Р’В Р РЋРІР‚В Р В Р’В Р РЋРІР‚вЂќР В Р’В Р вЂ™Р’ВµР В Р Р‹Р В РІР‚С™Р В Р’В Р вЂ™Р’ВµР В Р’В Р Р†РІР‚С›РІР‚вЂњР В Р’В Р СћРІР‚ВР В Р’В Р РЋРІР‚В Р В Р Р‹Р В РЎвЂњР В Р Р‹Р В РІР‚С™Р В Р’В Р вЂ™Р’В°Р В Р’В Р вЂ™Р’В·Р В Р Р‹Р РЋРІР‚Сљ Р В Р’В Р В РІР‚В  Telegram-Р В Р’В Р вЂ™Р’В±Р В Р’В Р РЋРІР‚СћР В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’В°.</div>
+          <a class="mobile-404-btn" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer">Р В Р’В Р РЋРІР‚С”Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р РЋРІР‚СњР В Р Р‹Р В РІР‚С™Р В Р Р‹Р Р†Р вЂљРІвЂћвЂ“Р В Р Р‹Р Р†Р вЂљРЎв„ўР В Р Р‹Р В Р вЂ° Р В Р’В Р вЂ™Р’В±Р В Р’В Р РЋРІР‚СћР В Р Р‹Р Р†Р вЂљРЎв„ўР В Р’В Р вЂ™Р’В°</a>
         </div>
       </div>
     `;
@@ -48,7 +48,7 @@
   const wheelCopyEl = document.getElementById('wheel-copy');
   const wheelStatusEl = document.getElementById('wheel-status');
 
-  const langLabels = { ru: 'Русский', en: 'English', es: 'Español' };
+  const langLabels = { ru: 'Р В Р’В Р вЂ™Р’В Р В Р Р‹Р РЋРІР‚СљР В Р Р‹Р В РЎвЂњР В Р Р‹Р В РЎвЂњР В Р’В Р РЋРІР‚СњР В Р’В Р РЋРІР‚ВР В Р’В Р Р†РІР‚С›РІР‚вЂњ', en: 'English', es: 'EspaР В РІР‚СљР вЂ™Р’В±ol' };
   const densityLabels = { default: '100%', compact: '92%', tight: '86%' };
   const rarityWeights = { common: 22, rare: 7, epic: 3, legendary: 1 };
   const wheelItemHeight = 80;
@@ -134,15 +134,40 @@
     return pickWeightedUnique(pool, dailyPromoCount, mulberry32(dayIndex + 913));
   };
 
-  const wheelStorageKey = () => {
-    const { dayStart } = getDailyWindow();
-    return `nh_wheel_${Math.floor(dayStart / dayDurationMs)}`;
+  const wheelStorageKey = () => 'nh_wheel_state_v2';
+
+  const getStoredWheelState = () => {
+    try {
+      const raw = localStorage.getItem(wheelStorageKey());
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object') return null;
+      if (!parsed.code || !parsed.spunAt) return null;
+      return parsed;
+    } catch (error) {
+      return null;
+    }
+  };
+
+  const setStoredWheelState = (promoCode) => {
+    localStorage.setItem(wheelStorageKey(), JSON.stringify({
+      code: String(promoCode || '').trim().toUpperCase(),
+      spunAt: Date.now(),
+    }));
+  };
+
+  const formatRubWord = (value) => {
+    const mod10 = value % 10;
+    const mod100 = value % 100;
+    if (mod10 === 1 && mod100 !== 11) return 'рубль';
+    if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return 'рубля';
+    return 'рублей';
   };
 
   const formatRewardLabel = (promo) => {
     const reward = Array.isArray(promo?.rewards) ? promo.rewards[0] : null;
-    if (!reward) return '';
-    if (reward.type === 'balance') return `+${reward.value}₽ на баланс`;
+    if (!reward) return 'Секретный подарок';
+    if (reward.type === 'balance') return `+${reward.value} ${formatRubWord(Number(reward.value || 0))}`;
     if (reward.type === 'topup_bonus') return `+${reward.value}% к пополнению`;
     if (reward.type === 'aurum') {
       const unitMap = { minutes: 'мин.', hours: 'ч.', days: 'дн.' };
@@ -154,13 +179,26 @@
   const renderWheelPromo = (promo) => {
     if (!wheelCodeEl || !wheelNoteEl || !wheelStatusEl || !promo) return;
     wheelCodeEl.textContent = formatRewardLabel(promo);
-    wheelNoteEl.textContent = 'Промокод скрыт. Нажми кнопку ниже, чтобы скопировать его и активировать в боте.';
-    wheelStatusEl.textContent = 'Подарок на сегодня уже выбран';
+    wheelCodeEl.dataset.promoCode = promo.code;
+    wheelNoteEl.textContent = '';
   };
 
   const setWheelButtonsState = (spun) => {
     if (wheelSpinEl) wheelSpinEl.textContent = spun ? 'Открыть свой приз' : 'Крутить рулетку';
-    if (wheelStatusEl && !spun) wheelStatusEl.textContent = 'Внутри: баланс, AURUM и редкие бонусы к пополнению.';
+  };
+
+  const renderWheelIdle = () => {
+    if (!wheelCodeEl || !wheelNoteEl || !wheelStatusEl) return;
+    wheelCodeEl.textContent = 'Крути и забирай подарок';
+    wheelCodeEl.dataset.promoCode = '';
+    wheelNoteEl.textContent = '';
+    wheelStatusEl.textContent = 'Бесплатная рулетка доступна один раз в 24 часа.';
+    setWheelButtonsState(false);
+  };
+
+  const renderWheelCooldown = (secondsLeft) => {
+    if (!wheelStatusEl) return;
+    wheelStatusEl.textContent = 'Ты уже открывал рулетку. Новый бесплатный прокрут через ' + formatCountdown(secondsLeft * 1000) + '.';
   };
 
   const openWheelModal = () => {
@@ -181,7 +219,7 @@
     const pool = getWheelPromoPool();
     if (!pool.length || !targetPromo) return [];
     const randomPool = [];
-    for (let i = 0; i < 26; i += 1) {
+    for (let i = 0; i < 34; i += 1) {
       randomPool.push(pool[Math.floor(Math.random() * pool.length)]);
     }
     const tail = [
@@ -206,28 +244,47 @@
     const sequence = buildWheelSequence(promo);
     const targetIndex = Math.max(0, sequence.length - 3);
     const centerOffset = 72;
+    const finalOffset = Math.max((targetIndex * wheelItemHeight) - centerOffset, 0);
+    const preFinalOffset = Math.max(finalOffset - 20, 0);
     renderWheelTrack(sequence);
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        wheelTrackEl.style.transition = 'transform 4.6s cubic-bezier(.08,.78,.11,1)';
-        wheelTrackEl.style.transform = `translateY(-${(targetIndex * wheelItemHeight) - centerOffset}px)`;
+        wheelTrackEl.style.transition = 'transform 5.8s cubic-bezier(.08,.78,.11,1)';
+        wheelTrackEl.style.transform = `translateY(-${preFinalOffset}px)`;
+        setTimeout(() => {
+          wheelTrackEl.style.transition = 'transform .34s cubic-bezier(.2,.9,.25,1)';
+          wheelTrackEl.style.transform = `translateY(-${finalOffset}px)`;
+        }, 5800);
       });
     });
   };
+
   const restoreWheelPromo = () => {
-    const saved = localStorage.getItem(wheelStorageKey());
-    if (!saved) return;
-    const promo = promoPool.find((item) => item.code === saved);
-    if (promo) { renderWheelPromo(promo); setWheelButtonsState(true); }
+    const saved = getStoredWheelState();
+    if (!saved) {
+      renderWheelIdle();
+      return;
+    }
+    const promo = promoPool.find((item) => item.code === saved.code);
+    const elapsed = Math.floor((Date.now() - Number(saved.spunAt || 0)) / 1000);
+    const secondsLeft = Math.max(0, (24 * 60 * 60) - elapsed);
+    if (!promo || secondsLeft <= 0) {
+      localStorage.removeItem(wheelStorageKey());
+      renderWheelIdle();
+      return;
+    }
+    renderWheelPromo(promo);
+    renderWheelCooldown(secondsLeft);
+    setWheelButtonsState(true);
   };
 
   const pickWheelPromo = () => {
     const pool = getWheelPromoPool();
     if (!pool.length) return null;
-    const totalWeight = pool.reduce((sum, item) => sum + (rarityWeights[getPromoTier(item)] || 1), 0);
+    const totalWeight = pool.reduce((sum, item) => sum + Number(item.weight || rarityWeights[getPromoTier(item)] || 1), 0);
     let roll = Math.random() * totalWeight;
     for (const item of pool) {
-      roll -= rarityWeights[getPromoTier(item)] || 1;
+      roll -= Number(item.weight || rarityWeights[getPromoTier(item)] || 1);
       if (roll <= 0) return item;
     }
     return pool[0];
@@ -310,6 +367,7 @@
           group: String(item.group || 'daily').toLowerCase(),
           rewards: Array.isArray(item.rewards) ? item.rewards : [],
           hint: item.hint && typeof item.hint === 'object' ? item.hint : {},
+          weight: Number(item.weight || 0),
         }))
         .filter((item) => item.code);
       refreshPromoFrame();
@@ -364,7 +422,10 @@
     if (event.key === 'nh_density') applyDensity(event.newValue || 'default');
   });
 
-  setInterval(refreshPromoFrame, 1000);
+  setInterval(() => {
+    refreshPromoFrame();
+    if (wheelModalEl && wheelModalEl.classList.contains('is-open')) restoreWheelPromo();
+  }, 1000);
 
   if (copyEl && codeEl) {
     copyEl.addEventListener('click', async () => {
@@ -403,30 +464,48 @@
 
   if (wheelSpinEl) {
     wheelSpinEl.addEventListener('click', () => {
+      if (!promoPool.length) return;
       if (wheelSpinning) return;
-      const saved = localStorage.getItem(wheelStorageKey());
-      let promo = saved ? promoPool.find((item) => item.code === saved) : null;
-      if (!promo) {
-        promo = pickWheelPromo();
-        if (!promo) return;
-        localStorage.setItem(wheelStorageKey(), promo.code);
+
+      const saved = getStoredWheelState();
+      if (saved) {
+        const promo = promoPool.find((item) => item.code === saved.code);
+        const elapsed = Math.floor((Date.now() - Number(saved.spunAt || 0)) / 1000);
+        const secondsLeft = Math.max(0, (24 * 60 * 60) - elapsed);
+        if (promo && secondsLeft > 0) {
+          renderWheelPromo(promo);
+          renderWheelCooldown(secondsLeft);
+          setWheelButtonsState(true);
+          return;
+        }
       }
+
+      const promo = pickWheelPromo();
+      if (!promo) return;
+      setStoredWheelState(promo.code);
+
       wheelSpinning = true;
+      wheelCodeEl.textContent = 'Прокрутка...';
+      wheelCodeEl.dataset.promoCode = '';
+      wheelNoteEl.textContent = '';
       wheelStatusEl.textContent = 'Рулетка крутится...';
       animateWheelToPromo(promo);
+
       setTimeout(() => {
         renderWheelPromo(promo);
+        renderWheelCooldown(24 * 60 * 60);
         setWheelButtonsState(true);
         wheelSpinning = false;
-      }, 4800);
+      }, 6200);
     });
   }
 
   if (wheelCopyEl && wheelCodeEl) {
     wheelCopyEl.addEventListener('click', async () => {
-      if (!wheelCodeEl.textContent.trim()) return;
+      const promoCode = wheelCodeEl.dataset.promoCode || '';
+      if (!promoCode.trim()) return;
       try {
-        await navigator.clipboard.writeText(wheelCodeEl.textContent.trim());
+        await navigator.clipboard.writeText(promoCode.trim());
         wheelCopyEl.textContent = 'Скопировано';
         setTimeout(() => { wheelCopyEl.textContent = 'Скопировать промокод'; }, 1600);
       } catch (error) {
@@ -457,6 +536,10 @@
   document.addEventListener('keydown', blockShortcut, true);
   document.addEventListener('keyup', blockShortcut, true);
 })();
+
+
+
+
 
 
 
