@@ -2224,3 +2224,18 @@ body {
 .wheel-tools {
   margin-top: 16px;
 }
+
+.wheel-item {
+  text-transform: none;
+  letter-spacing: .02em;
+  font-size: 22px;
+  line-height: 1.08;
+  padding: 0 18px;
+}
+
+.wheel-code {
+  text-transform: none;
+  letter-spacing: .02em;
+  font-size: 28px;
+  line-height: 1.08;
+}
