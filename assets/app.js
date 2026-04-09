@@ -48,7 +48,7 @@
   const wheelCopyEl = document.getElementById('wheel-copy');
   const wheelStatusEl = document.getElementById('wheel-status');
 
-  const langLabels = { ru: 'Р В Р’В Р вЂ™Р’В Р В Р Р‹Р РЋРІР‚СљР В Р Р‹Р В РЎвЂњР В Р Р‹Р В РЎвЂњР В Р’В Р РЋРІР‚СњР В Р’В Р РЋРІР‚ВР В Р’В Р Р†РІР‚С›РІР‚вЂњ', en: 'English', es: 'EspaР В РІР‚СљР вЂ™Р’В±ol' };
+  const langLabels = { ru: 'Русский', en: 'English', es: 'Español' };
   const densityLabels = { default: '100%', compact: '92%', tight: '86%' };
   const rarityWeights = { common: 22, rare: 7, epic: 3, legendary: 1 };
   const wheelItemHeight = 80;
@@ -134,7 +134,7 @@
     return pickWeightedUnique(pool, dailyPromoCount, mulberry32(dayIndex + 913));
   };
 
-  const wheelStorageKey = () => 'nh_wheel_state_v2';
+  const wheelStorageKey = () => 'nh_wheel_state_v3';
 
   const getStoredWheelState = () => {
     try {
@@ -536,6 +536,7 @@
   document.addEventListener('keydown', blockShortcut, true);
   document.addEventListener('keyup', blockShortcut, true);
 })();
+
 
 
 
