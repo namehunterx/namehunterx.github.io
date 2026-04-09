@@ -37,7 +37,12 @@
   const wrapEl = document.getElementById('promo-rotator');
   const copyEl = document.getElementById('promo-copy');
   const toastEl = document.getElementById('promo-toast');
+  const wheelOpenEl = document.getElementById('wheel-open');
+  const wheelModalEl = document.getElementById('wheel-modal');
+  const wheelCloseEl = document.getElementById('wheel-close');
+  const wheelCloseXEl = document.getElementById('wheel-close-x');
   const wheelSpinEl = document.getElementById('wheel-spin');
+  const wheelTrackEl = document.getElementById('wheel-track');
   const wheelCodeEl = document.getElementById('wheel-code');
   const wheelNoteEl = document.getElementById('wheel-note');
   const wheelCopyEl = document.getElementById('wheel-copy');
@@ -46,10 +51,12 @@
   const langLabels = { ru: 'Русский', en: 'English', es: 'Español' };
   const densityLabels = { default: '100%', compact: '92%', tight: '86%' };
   const rarityWeights = { common: 22, rare: 7, epic: 3, legendary: 1 };
+  const wheelItemHeight = 80;
   let currentLang = 'ru';
   let promoPool = [];
   let currentDailyPromos = [];
   let currentDailyIndex = 0;
+  let wheelSpinning = false;
 
   const closeLangMenu = () => {
     if (langMenu) langMenu.classList.remove('is-open');
@@ -139,11 +146,66 @@
     wheelStatusEl.textContent = 'Подарок на сегодня уже выбран';
   };
 
+    const setWheelButtonsState = (spun) => {
+    if (wheelSpinEl) wheelSpinEl.textContent = spun ? 'Прокрутить еще раз' : 'Крутить рулетку';
+    if (wheelStatusEl && !spun) wheelStatusEl.textContent = 'Один прокрут в день';
+  };
+
+  const openWheelModal = () => {
+    if (!wheelModalEl) return;
+    wheelModalEl.classList.add('is-open');
+    wheelModalEl.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeWheelModal = () => {
+    if (!wheelModalEl) return;
+    wheelModalEl.classList.remove('is-open');
+    wheelModalEl.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  };
+
+  const buildWheelSequence = (targetPromo) => {
+    const pool = getWheelPromoPool();
+    if (!pool.length || !targetPromo) return [];
+    const randomPool = [];
+    for (let i = 0; i < 26; i += 1) {
+      randomPool.push(pool[Math.floor(Math.random() * pool.length)]);
+    }
+    const tail = [
+      pool[Math.floor(Math.random() * pool.length)],
+      pool[Math.floor(Math.random() * pool.length)],
+      targetPromo,
+      pool[Math.floor(Math.random() * pool.length)],
+      pool[Math.floor(Math.random() * pool.length)],
+    ];
+    return [...randomPool, ...tail];
+  };
+
+  const renderWheelTrack = (items) => {
+    if (!wheelTrackEl) return;
+    wheelTrackEl.innerHTML = items.map((item) => `<div class="wheel-item" data-tier="${getPromoTier(item)}">${item.code}</div>`).join('');
+    wheelTrackEl.style.transition = 'none';
+    wheelTrackEl.style.transform = 'translateY(0px)';
+  };
+
+  const animateWheelToPromo = (promo) => {
+    if (!promo || !wheelTrackEl) return;
+    const sequence = buildWheelSequence(promo);
+    const targetIndex = Math.max(0, sequence.length - 3);
+    renderWheelTrack(sequence);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        wheelTrackEl.style.transition = 'transform 4.6s cubic-bezier(.08,.78,.11,1)';
+        wheelTrackEl.style.transform = `translateY(-${targetIndex * wheelItemHeight}px)`;
+      });
+    });
+  };
   const restoreWheelPromo = () => {
     const saved = localStorage.getItem(wheelStorageKey());
     if (!saved) return;
     const promo = promoPool.find((item) => item.code === saved);
-    if (promo) renderWheelPromo(promo);
+    if (promo) { renderWheelPromo(promo); setWheelButtonsState(true); }
   };
 
   const pickWheelPromo = () => {
@@ -315,20 +377,35 @@
     });
   }
 
+  if (wheelOpenEl) {
+    wheelOpenEl.addEventListener('click', () => {
+      openWheelModal();
+      restoreWheelPromo();
+    });
+  }
+
+  if (wheelCloseEl) wheelCloseEl.addEventListener('click', closeWheelModal);
+  if (wheelCloseXEl) wheelCloseXEl.addEventListener('click', closeWheelModal);
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeWheelModal(); });
+
   if (wheelSpinEl) {
     wheelSpinEl.addEventListener('click', () => {
+      if (wheelSpinning) return;
       const saved = localStorage.getItem(wheelStorageKey());
-      if (saved) {
-        const existingPromo = promoPool.find((item) => item.code === saved);
-        if (existingPromo) {
-          renderWheelPromo(existingPromo);
-          return;
-        }
+      let promo = saved ? promoPool.find((item) => item.code === saved) : null;
+      if (!promo) {
+        promo = pickWheelPromo();
+        if (!promo) return;
+        localStorage.setItem(wheelStorageKey(), promo.code);
       }
-      const promo = pickWheelPromo();
-      if (!promo) return;
-      localStorage.setItem(wheelStorageKey(), promo.code);
-      renderWheelPromo(promo);
+      wheelSpinning = true;
+      wheelStatusEl.textContent = 'Рулетка крутится...';
+      animateWheelToPromo(promo);
+      setTimeout(() => {
+        renderWheelPromo(promo);
+        setWheelButtonsState(true);
+        wheelSpinning = false;
+      }, 4800);
     });
   }
 
@@ -367,3 +444,5 @@
   document.addEventListener('keydown', blockShortcut, true);
   document.addEventListener('keyup', blockShortcut, true);
 })();
+
+
