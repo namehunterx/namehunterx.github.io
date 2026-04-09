@@ -139,16 +139,28 @@
     return `nh_wheel_${Math.floor(dayStart / dayDurationMs)}`;
   };
 
+  const formatRewardLabel = (promo) => {
+    const reward = Array.isArray(promo?.rewards) ? promo.rewards[0] : null;
+    if (!reward) return '';
+    if (reward.type === 'balance') return `+${reward.value}₽ на баланс`;
+    if (reward.type === 'topup_bonus') return `+${reward.value}% к пополнению`;
+    if (reward.type === 'aurum') {
+      const unitMap = { minutes: 'мин.', hours: 'ч.', days: 'дн.' };
+      return `AURUM на ${reward.value} ${unitMap[reward.unit] || ''}`.trim();
+    }
+    return 'Секретный подарок';
+  };
+
   const renderWheelPromo = (promo) => {
     if (!wheelCodeEl || !wheelNoteEl || !wheelStatusEl || !promo) return;
-    wheelCodeEl.textContent = promo.code;
-    wheelNoteEl.textContent = (promo.hint && (promo.hint[currentLang] || promo.hint.ru)) || 'Одноразовый код из рулетки сайта.';
+    wheelCodeEl.textContent = formatRewardLabel(promo);
+    wheelNoteEl.textContent = 'Промокод скрыт. Нажми кнопку ниже, чтобы скопировать его и активировать в боте.';
     wheelStatusEl.textContent = 'Подарок на сегодня уже выбран';
   };
 
-    const setWheelButtonsState = (spun) => {
-    if (wheelSpinEl) wheelSpinEl.textContent = spun ? 'Прокрутить еще раз' : 'Крутить рулетку';
-    if (wheelStatusEl && !spun) wheelStatusEl.textContent = 'Один прокрут в день';
+  const setWheelButtonsState = (spun) => {
+    if (wheelSpinEl) wheelSpinEl.textContent = spun ? 'Открыть свой приз' : 'Крутить рулетку';
+    if (wheelStatusEl && !spun) wheelStatusEl.textContent = 'Внутри: баланс, AURUM и редкие бонусы к пополнению.';
   };
 
   const openWheelModal = () => {
@@ -184,7 +196,7 @@
 
   const renderWheelTrack = (items) => {
     if (!wheelTrackEl) return;
-    wheelTrackEl.innerHTML = items.map((item) => `<div class="wheel-item" data-tier="${getPromoTier(item)}">${item.code}</div>`).join('');
+    wheelTrackEl.innerHTML = items.map((item) => `<div class="wheel-item" data-tier="${getPromoTier(item)}">${formatRewardLabel(item)}</div>`).join('');
     wheelTrackEl.style.transition = 'none';
     wheelTrackEl.style.transform = 'translateY(0px)';
   };
@@ -193,11 +205,12 @@
     if (!promo || !wheelTrackEl) return;
     const sequence = buildWheelSequence(promo);
     const targetIndex = Math.max(0, sequence.length - 3);
+    const centerOffset = 72;
     renderWheelTrack(sequence);
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         wheelTrackEl.style.transition = 'transform 4.6s cubic-bezier(.08,.78,.11,1)';
-        wheelTrackEl.style.transform = `translateY(-${targetIndex * wheelItemHeight}px)`;
+        wheelTrackEl.style.transform = `translateY(-${(targetIndex * wheelItemHeight) - centerOffset}px)`;
       });
     });
   };
@@ -415,10 +428,10 @@
       try {
         await navigator.clipboard.writeText(wheelCodeEl.textContent.trim());
         wheelCopyEl.textContent = 'Скопировано';
-        setTimeout(() => { wheelCopyEl.textContent = 'Скопировать код'; }, 1600);
+        setTimeout(() => { wheelCopyEl.textContent = 'Скопировать промокод'; }, 1600);
       } catch (error) {
         wheelCopyEl.textContent = 'Ошибка';
-        setTimeout(() => { wheelCopyEl.textContent = 'Скопировать код'; }, 1600);
+        setTimeout(() => { wheelCopyEl.textContent = 'Скопировать промокод'; }, 1600);
       }
     });
   }
@@ -444,5 +457,6 @@
   document.addEventListener('keydown', blockShortcut, true);
   document.addEventListener('keyup', blockShortcut, true);
 })();
+
 
 
