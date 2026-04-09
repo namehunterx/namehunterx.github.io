@@ -82,19 +82,10 @@
               <div class="promo-toast" id="promo-toast" data-i18n="common.copied">Промокод скопирован</div>
             </div>
 
-            <div class="wheel-box">
-              <div class="promo-kicker">Рулетка подарков</div>
-              <div class="promo-subline">Прокрути рулетку и забери одноразовый код на сегодня. Внутри в основном баланс, а редкие награды попадаются заметно реже.</div>
-              <div class="wheel-card">
-                <div class="wheel-code" id="wheel-code">—</div>
-                <div class="wheel-note" id="wheel-note">После прокрутки здесь появится твой код из рулетки.</div>
-                <div class="wheel-status" id="wheel-status">Один прокрут в день</div>
-                <div class="promo-tools">
-                  <button class="promo-copy" id="wheel-spin" type="button">Крутить рулетку</button>
-                  <button class="promo-open" id="wheel-copy" type="button">Скопировать код</button>
-                </div>
-              </div>
-            </div>
+            <div class="wheel-launch">
+  <button class="wheel-launch-btn" id="wheel-open" type="button">Открыть рулетку</button>
+  <div class="wheel-launch-note">Отдельная рулетка с живой прокруткой и одним подарком в день.</div>
+</div>
           </div>
         </aside>
       </div>
@@ -171,18 +162,44 @@
   </main>
 
   <footer>
-    <div class="container footer">
-      <div class="footer-note" data-i18n="common.footer_service">© NameHunter. Сервис внутри Telegram для поиска свободных юзернеймов, бонусов, AURUM и безопасных сделок.</div>
-      <div class="links">
-        <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
-        <a href="./privacy.html" data-i18n="common.nav.privacy">Политика</a>
-        <a href="./terms.html" data-i18n="common.nav.terms">Условия</a>
-        <a href="./contacts.html" data-i18n="common.nav.contacts">Контакты</a>
+  <div class="container footer">
+    <div class="footer-note" data-i18n="common.footer_service">© NameHunter. Сервис внутри Telegram для поиска свободных юзернеймов, бонусов, AURUM и безопасных сделок.</div>
+    <div class="links">
+      <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
+      <a href="./privacy.html" data-i18n="common.nav.privacy">Политика</a>
+      <a href="./terms.html" data-i18n="common.nav.terms">Условия</a>
+      <a href="./contacts.html" data-i18n="common.nav.contacts">Контакты</a>
+    </div>
+  </div>
+</footer>
+
+<div class="wheel-modal" id="wheel-modal" aria-hidden="true">
+  <div class="wheel-modal-backdrop" id="wheel-close"></div>
+  <div class="wheel-modal-card">
+    <button class="wheel-modal-x" id="wheel-close-x" type="button" aria-label="Закрыть">×</button>
+    <div class="wheel-modal-head">
+      <div class="promo-kicker">Рулетка подарков</div>
+      <div class="wheel-modal-sub">Крути отдельную рулетку и забирай одноразовый сайт-промокод на сегодня.</div>
+    </div>
+    <div class="wheel-machine">
+      <div class="wheel-glow"></div>
+      <div class="wheel-pointer"></div>
+      <div class="wheel-window">
+        <div class="wheel-track" id="wheel-track"></div>
       </div>
     </div>
-  </footer>
-
-  <script id="i18n-data" type="application/json">
+    <div class="wheel-result">
+      <div class="wheel-code" id="wheel-code">—</div>
+      <div class="wheel-note" id="wheel-note">После прокрутки здесь появится твой код из рулетки.</div>
+      <div class="wheel-status" id="wheel-status">Один прокрут в день</div>
+    </div>
+    <div class="promo-tools wheel-tools">
+      <button class="promo-copy" id="wheel-spin" type="button">Крутить рулетку</button>
+      <button class="promo-open" id="wheel-copy" type="button">Скопировать код</button>
+    </div>
+  </div>
+</div>
+<script id="i18n-data" type="application/json">
 {
   "ru": {
     "common": {
@@ -462,6 +479,11 @@
   <script src="./assets/app.js"></script>
 </body>
 </html>
+
+
+
+
+
 
 
 
