@@ -1,302 +1,2121 @@
-﻿[
-  {
-    "code": "HUNTER10",
-    "rarity": "common",
-    "rewards": [{"type": "topup_bonus", "value": 10}],
-    "hint": {
-      "ru": "Стартовый дроп для быстрого входа в NameHunter.",
-      "en": "Starter drop for a quick entry into NameHunter.",
-      "es": "Drop inicial para entrar rapido en NameHunter."
+[
+    {
+        "code":  "RUBDROP001",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP002",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP003",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP004",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP005",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP006",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP007",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP008",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP009",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP010",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP011",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP012",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP013",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP014",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP015",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP016",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP017",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP018",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP019",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP020",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP021",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP022",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP023",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP024",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP025",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP026",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP027",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP028",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP029",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP030",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP031",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP032",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP033",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP034",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP035",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP036",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP037",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP038",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP039",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP040",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP041",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP042",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP043",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP044",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP045",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP046",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP047",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP048",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP049",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP050",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP051",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP052",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP053",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP054",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP055",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP056",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP057",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP058",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP059",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP060",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP061",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP062",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP063",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP064",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  3,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP065",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP066",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP067",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  2,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP068",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP069",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "RUBDROP070",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Ежедневный денежный промокод из основной ленты сайта.",
+                     "en":  "Daily balance promo from the main website rotation.",
+                     "es":  "Promocode diario de saldo desde la rotacion principal del sitio."
+                 }
+    },
+    {
+        "code":  "BALANCE071",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE072",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  8,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE073",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE074",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  9,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE075",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  8,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE076",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE077",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  9,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE078",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  8,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE079",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "BALANCE080",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  12,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий денежный код с усиленной наградой.",
+                     "en":  "Rare balance code with a stronger reward.",
+                     "es":  "Codigo raro de saldo con recompensa reforzada."
+                 }
+    },
+    {
+        "code":  "AURUM081",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "minutes",
+                            "value":  15,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM082",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "minutes",
+                            "value":  30,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM083",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  1,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM084",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  1,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM085",
+        "rarity":  "epic",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  3,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM086",
+        "rarity":  "epic",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  6,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM087",
+        "rarity":  "epic",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  12,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "AURUM088",
+        "rarity":  "legendary",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "unit":  "days",
+                            "value":  1,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Премиальный код с временным доступом к AURUM.",
+                     "en":  "Premium code with temporary AURUM access.",
+                     "es":  "Codigo premium con acceso temporal a AURUM."
+                 }
+    },
+    {
+        "code":  "TOPUP089",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP090",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP091",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  15,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP092",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  15,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP093",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  20,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP094",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  20,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "TOPUP095",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  25,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий промокод с бонусом к следующему пополнению.",
+                     "en":  "Rare promo with a bonus to the next top-up.",
+                     "es":  "Promo raro con bonus al siguiente deposito."
+                 }
+    },
+    {
+        "code":  "NOVA099",
+        "rarity":  "epic",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  20,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Эпический денежный дроп из расширенного пула.",
+                     "en":  "Epic balance drop from the expanded pool.",
+                     "es":  "Drop epico de saldo del pool ampliado."
+                 }
+    },
+    {
+        "code":  "NOVA100",
+        "rarity":  "legendary",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  30,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Легендарный денежный дроп с максимальной наградой.",
+                     "en":  "Legendary balance drop with the maximum reward.",
+                     "es":  "Drop legendario de saldo con la recompensa maxima."
+                 }
+    },
+    {
+        "code":  "WHEEL001",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL002",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL003",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL004",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL005",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL006",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  12,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL007",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL008",
+        "rarity":  "epic",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  15,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL009",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL010",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL011",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL012",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  15,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL013",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "unit":  "minutes",
+                            "value":  30,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL014",
+        "rarity":  "epic",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  1,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL015",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL016",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  8,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL017",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  9,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL018",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  6,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL019",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  11,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL020",
+        "rarity":  "epic",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  14,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL021",
+        "rarity":  "epic",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  20,
+                            "type":  "topup_bonus"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL022",
+        "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  10,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL023",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  7,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "WHEEL024",
+        "rarity":  "legendary",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "unit":  "hours",
+                            "value":  3,
+                            "type":  "aurum"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 }
+    },
+    {
+        "code":  "CASH101",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  4,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Дополнительный денежный код из ежедневной ленты.",
+                     "en":  "Extra balance code from the daily line.",
+                     "es":  "Codigo extra de saldo desde la linea diaria."
+                 }
+    },
+    {
+        "code":  "CASH102",
+        "rarity":  "common",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  5,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Дополнительный денежный код из ежедневной ленты.",
+                     "en":  "Extra balance code from the daily line.",
+                     "es":  "Codigo extra de saldo desde la linea diaria."
+                 }
+    },
+    {
+        "code":  "CASH103",
+        "rarity":  "rare",
+        "group":  "daily",
+        "activations_limit":  1000,
+        "rewards":  [
+                        {
+                            "value":  9,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Редкий дополнительный денежный код сайта.",
+                     "en":  "Rare extra balance code from the website.",
+                     "es":  "Codigo raro extra de saldo del sitio."
+                 }
     }
-  },
-  {
-    "code": "AURUMSTART",
-    "rarity": "common",
-    "rewards": [{"type": "aurum", "value": 1, "unit": "hours"}],
-    "hint": {
-      "ru": "Промо из премиум-подборки AURUM.",
-      "en": "Promo from the premium AURUM selection.",
-      "es": "Promo de la seleccion premium AURUM."
-    }
-  },
-  {
-    "code": "NICKDROP",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 3}],
-    "hint": {
-      "ru": "Промокод из подборки на ники и бонусные сценарии.",
-      "en": "Promo from the username and bonus flows set.",
-      "es": "Promocode de la seleccion para usernames y bonus."
-    }
-  },
-  {
-    "code": "MARKETVIP",
-    "rarity": "rare",
-    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
-    "hint": {
-      "ru": "Витринный код для маркета и safe deal.",
-      "en": "Showcase code for the market and safe deal.",
-      "es": "Codigo de vitrina para mercado y safe deal."
-    }
-  },
-  {
-    "code": "BONUS24",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 5}],
-    "hint": {
-      "ru": "Один из бонусных кодов ежедневной ленты.",
-      "en": "One of the daily bonus showcase codes.",
-      "es": "Uno de los codigos de bonus de la vitrina diaria."
-    }
-  },
-  {
-    "code": "REFBOOST",
-    "rarity": "common",
-    "rewards": [{"type": "discount", "value": 10}],
-    "hint": {
-      "ru": "Код из блока активности и реферальных механик.",
-      "en": "Code from the activity and referral mechanics block.",
-      "es": "Codigo del bloque de actividad y referidos."
-    }
-  },
-  {
-    "code": "SAFEDEAL",
-    "rarity": "common",
-    "rewards": [{"type": "aurum", "value": 30, "unit": "minutes"}],
-    "hint": {
-      "ru": "Промо из подборки по безопасным сделкам.",
-      "en": "Promo from the safe deal collection.",
-      "es": "Promo de la coleccion de operaciones seguras."
-    }
-  },
-  {
-    "code": "DAILYDROP",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 1}],
-    "hint": {
-      "ru": "Дневной код из живой ротации сайта.",
-      "en": "Daily code from the live site rotation.",
-      "es": "Codigo diario de la rotacion viva del sitio."
-    }
-  },
-  {
-    "code": "NICKWAVE",
-    "rarity": "common",
-    "rewards": [{"type": "aurum", "value": 1, "unit": "hours"}],
-    "hint": {
-      "ru": "Код из волны промо для поиска красивых ников.",
-      "en": "Code from the promo wave for clean usernames.",
-      "es": "Codigo de la ola promo para usernames bonitos."
-    }
-  },
-  {
-    "code": "FASTAURUM",
-    "rarity": "rare",
-    "rewards": [{"type": "aurum", "value": 6, "unit": "hours"}],
-    "hint": {
-      "ru": "Промо из быстрой AURUM-подборки.",
-      "en": "Promo from the fast AURUM set.",
-      "es": "Promo de la seleccion rapida de AURUM."
-    }
-  },
-  {
-    "code": "MARKETFIRE",
-    "rarity": "common",
-    "rewards": [{"type": "topup_bonus", "value": 25}],
-    "hint": {
-      "ru": "Один из кодов витрины для маркета.",
-      "en": "One of the showcase codes for the market.",
-      "es": "Uno de los codigos de vitrina del mercado."
-    }
-  },
-  {
-    "code": "GLOWNICK",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 5}],
-    "hint": {
-      "ru": "Промокод из яркой линейки NameHunter.",
-      "en": "Promo code from the bright NameHunter line.",
-      "es": "Promocode de la linea brillante de NameHunter."
-    }
-  },
-  {
-    "code": "HUNTBOOST",
-    "rarity": "common",
-    "rewards": [{"type": "discount", "value": 15}],
-    "hint": {
-      "ru": "Код на усиленную дневную подборку.",
-      "en": "Code for an enhanced daily selection.",
-      "es": "Codigo para una seleccion diaria reforzada."
-    }
-  },
-  {
-    "code": "AURUMNOW",
-    "rarity": "common",
-    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
-    "hint": {
-      "ru": "Промо из активной AURUM-ротации.",
-      "en": "Promo from the active AURUM rotation.",
-      "es": "Promo de la rotacion activa de AURUM."
-    }
-  },
-  {
-    "code": "RARENICK",
-    "rarity": "rare",
-    "rewards": [{"type": "balance", "value": 10}],
-    "hint": {
-      "ru": "Код из подборки под редкие и чистые ники.",
-      "en": "Code from the rare and clean username collection.",
-      "es": "Codigo de la seleccion de usernames raros y limpios."
-    }
-  },
-  {
-    "code": "VIOLETDROP",
-    "rarity": "common",
-    "rewards": [{"type": "topup_bonus", "value": 15}],
-    "hint": {
-      "ru": "Фирменный фиолетовый дроп сайта NameHunter.",
-      "en": "Signature violet website drop for NameHunter.",
-      "es": "Drop violeta de la web de NameHunter."
-    }
-  },
-  {
-    "code": "NAMEJET",
-    "rarity": "common",
-    "rewards": [{"type": "aurum", "value": 30, "unit": "minutes"}],
-    "hint": {
-      "ru": "Быстрый промокод из легкой ротации дня.",
-      "en": "Fast promo code from the light daily rotation.",
-      "es": "Codigo rapido de la rotacion diaria."
-    }
-  },
-  {
-    "code": "DEALLIVE",
-    "rarity": "common",
-    "rewards": [{"type": "discount", "value": 5}],
-    "hint": {
-      "ru": "Код из подборки safe deal и доверия.",
-      "en": "Code from the safe deal and trust selection.",
-      "es": "Codigo de la seleccion de safe deal y confianza."
-    }
-  },
-  {
-    "code": "BONUSFLOW",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 3}],
-    "hint": {
-      "ru": "Промокод из бонусного потока сервиса.",
-      "en": "Promo code from the service bonus flow.",
-      "es": "Promocode del flujo de bonus del servicio."
-    }
-  },
-  {
-    "code": "PROMOEDGE",
-    "rarity": "epic",
-    "rewards": [{"type": "aurum", "value": 1, "unit": "days"}],
-    "hint": {
-      "ru": "Острый код из ежедневной десятки.",
-      "en": "Sharp code from the daily top ten.",
-      "es": "Codigo potente de la decena diaria."
-    }
-  },
-  {
-    "code": "HUNTERMAX",
-    "rarity": "epic",
-    "rewards": [{"type": "topup_bonus", "value": 50}],
-    "hint": {
-      "ru": "Промо из усиленной линейки NameHunter.",
-      "en": "Promo from the enhanced NameHunter line.",
-      "es": "Promo de la linea reforzada de NameHunter."
-    }
-  },
-  {
-    "code": "NICKLINE",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 5}],
-    "hint": {
-      "ru": "Код из подборки на чистые ники и пакеты.",
-      "en": "Code from the clean usernames and package set.",
-      "es": "Codigo de la seleccion de usernames limpios y paquetes."
-    }
-  },
-  {
-    "code": "MARKETX",
-    "rarity": "rare",
-    "rewards": [{"type": "aurum", "value": 12, "unit": "hours"}],
-    "hint": {
-      "ru": "Промо из маркета с акцентом на сделки.",
-      "en": "Promo from the market side with deal focus.",
-      "es": "Promo del mercado con enfoque en operaciones."
-    }
-  },
-  {
-    "code": "AURUMPLUS",
-    "rarity": "rare",
-    "rewards": [{"type": "aurum", "value": 1, "unit": "days"}],
-    "hint": {
-      "ru": "Один из кодов премиальной линии AURUM.",
-      "en": "One of the codes from the premium AURUM line.",
-      "es": "Uno de los codigos de la linea premium AURUM."
-    }
-  },
-  {
-    "code": "DROPZONE",
-    "rarity": "common",
-    "rewards": [{"type": "discount", "value": 20}],
-    "hint": {
-      "ru": "Код из зоны ежедневных дропов.",
-      "en": "Code from the daily drop zone.",
-      "es": "Codigo de la zona de drops diarios."
-    }
-  },
-  {
-    "code": "NAMEPULSE",
-    "rarity": "common",
-    "rewards": [{"type": "balance", "value": 10}],
-    "hint": {
-      "ru": "Пульсирующий код из сайта и витрины.",
-      "en": "Pulse code from the site showcase.",
-      "es": "Codigo de pulso de la vitrina del sitio."
-    }
-  },
-  {
-    "code": "SAFEHUNT",
-    "rarity": "rare",
-    "rewards": [{"type": "aurum", "value": 3, "unit": "hours"}],
-    "hint": {
-      "ru": "Промокод на стыке поиска и safe deal.",
-      "en": "Promo code where search meets safe deal.",
-      "es": "Promocode entre busqueda y safe deal."
-    }
-  },
-  {
-    "code": "GIFTNICK",
-    "rarity": "epic",
-    "rewards": [{"type": "balance", "value": 15}],
-    "hint": {
-      "ru": "Код из подарочной линии NameHunter.",
-      "en": "Code from the NameHunter gift line.",
-      "es": "Codigo de la linea de regalos de NameHunter."
-    }
-  },
-  {
-    "code": "HYPERNAME",
-    "rarity": "epic",
-    "rewards": [{"type": "topup_bonus", "value": 25}],
-    "hint": {
-      "ru": "Промо из динамичной подборки сайта.",
-      "en": "Promo from the dynamic site selection.",
-      "es": "Promo de la seleccion dinamica del sitio."
-    }
-  },
-  {
-    "code": "HUNTERNOVA",
-    "rarity": "legendary",
-    "rewards": [{"type": "aurum", "value": 3, "unit": "days"}],
-    "hint": {
-      "ru": "Финальный код из расширенного пула витрины.",
-      "en": "Final code from the expanded showcase pool.",
-      "es": "Codigo final del pool ampliado de la vitrina."
-    }
-  }
 ]
