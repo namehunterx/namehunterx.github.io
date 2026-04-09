@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -68,10 +68,10 @@
             <div class="promo-subline" data-i18n="index.promoSub">Каждый день в 05:00 МСК сайт собирает новую десятку промокодов и крутит их в живом формате.</div>
             <div class="promo-rotator" id="promo-rotator">
               <div class="promo-label" data-i18n="common.promo_day">Промокоды дня</div>
-              <div class="promo-code" id="promo-code">HUNTER10</div>
-              <div class="promo-note" id="promo-note">Стартовый дроп для быстрого входа в NameHunter.</div>
+              <div class="promo-code" id="promo-code">RUBDROP001</div>
+              <div class="promo-note" id="promo-note">Ежедневный денежный промокод из основной ленты сайта.</div>
               <div class="promo-meta">
-                <div class="promo-timer"><span data-i18n="common.next_switch">Следующая смена:</span> <b id="promo-timer">10с</b></div>
+                <div class="promo-timer"><span data-i18n="common.next_switch">Следующая смена:</span> <b id="promo-timer">00:00:00</b></div>
                 <div class="promo-timer"><span data-i18n="common.daily_refresh">Новая подборка:</span> <b id="promo-day-reset">00:00:00</b></div>
                 <div class="promo-status"><span data-i18n="common.today_count">Сегодня:</span> <b id="promo-day-count">1 / 10</b></div>
               </div>
@@ -80,6 +80,20 @@
                 <a class="promo-open" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="common.open_bot">Открыть бота</a>
               </div>
               <div class="promo-toast" id="promo-toast" data-i18n="common.copied">Промокод скопирован</div>
+            </div>
+
+            <div class="wheel-box">
+              <div class="promo-kicker">Рулетка подарков</div>
+              <div class="promo-subline">Прокрути рулетку и забери одноразовый код на сегодня. Внутри в основном баланс, а редкие награды попадаются заметно реже.</div>
+              <div class="wheel-card">
+                <div class="wheel-code" id="wheel-code">—</div>
+                <div class="wheel-note" id="wheel-note">После прокрутки здесь появится твой код из рулетки.</div>
+                <div class="wheel-status" id="wheel-status">Один прокрут в день</div>
+                <div class="promo-tools">
+                  <button class="promo-copy" id="wheel-spin" type="button">Крутить рулетку</button>
+                  <button class="promo-open" id="wheel-copy" type="button">Скопировать код</button>
+                </div>
+              </div>
             </div>
           </div>
         </aside>
@@ -448,6 +462,7 @@
   <script src="./assets/app.js"></script>
 </body>
 </html>
+
 
 
 
