@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   if (window.matchMedia('(max-width: 980px)').matches) {
     document.body.innerHTML = `
       <div class="mobile-404-screen">
