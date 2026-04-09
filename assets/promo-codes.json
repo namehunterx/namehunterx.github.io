@@ -1663,23 +1663,6 @@
         "activations_limit":  1,
         "rewards":  [
                         {
-                            "value":  5,
-                            "type":  "balance"
-                        }
-                    ],
-        "hint":  {
-                     "ru":  "Одноразовый код из рулетки сайта.",
-                     "en":  "One-time code from the website wheel.",
-                     "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
-    },
-    {
-        "code":  "NIGHTGEM",
-        "rarity":  "common",
-        "group":  "wheel",
-        "activations_limit":  1,
-        "rewards":  [
-                        {
                             "value":  7,
                             "type":  "balance"
                         }
@@ -1688,11 +1671,30 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  8
+    },
+    {
+        "code":  "NIGHTGEM",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  8,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 },
+        "weight":  10
     },
     {
         "code":  "AURABOX",
-        "rarity":  "rare",
+        "rarity":  "common",
         "group":  "wheel",
         "activations_limit":  1,
         "rewards":  [
@@ -1705,27 +1707,11 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  14
     },
     {
         "code":  "LUCKSHIFT",
-        "rarity":  "common",
-        "group":  "wheel",
-        "activations_limit":  1,
-        "rewards":  [
-                        {
-                            "value":  5,
-                            "type":  "balance"
-                        }
-                    ],
-        "hint":  {
-                     "ru":  "Одноразовый код из рулетки сайта.",
-                     "en":  "One-time code from the website wheel.",
-                     "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
-    },
-    {
-        "code":  "GLOWPULSE",
         "rarity":  "common",
         "group":  "wheel",
         "activations_limit":  1,
@@ -1739,7 +1725,26 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  8
+    },
+    {
+        "code":  "GLOWPULSE",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  9,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 },
+        "weight":  12
     },
     {
         "code":  "TWILIGHT",
@@ -1756,7 +1761,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  10
     },
     {
         "code":  "STARVAULT",
@@ -1773,7 +1779,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  14
     },
     {
         "code":  "MOONBOOST",
@@ -1790,7 +1797,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  8
     },
     {
         "code":  "CRYSTALINK",
@@ -1799,7 +1807,7 @@
         "activations_limit":  1,
         "rewards":  [
                         {
-                            "value":  5,
+                            "value":  8,
                             "type":  "balance"
                         }
                     ],
@@ -1807,7 +1815,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  10
     },
     {
         "code":  "NOVAFLOW",
@@ -1816,7 +1825,7 @@
         "activations_limit":  1,
         "rewards":  [
                         {
-                            "value":  7,
+                            "value":  10,
                             "type":  "balance"
                         }
                     ],
@@ -1824,7 +1833,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  14
     },
     {
         "code":  "LUNAFRAME",
@@ -1841,7 +1851,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  3
     },
     {
         "code":  "SHARDGIFT",
@@ -1858,7 +1869,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  2
     },
     {
         "code":  "DREAMDROP",
@@ -1876,7 +1888,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  5
     },
     {
         "code":  "SKYRIFT",
@@ -1894,7 +1907,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  4
     },
     {
         "code":  "VOIDGEM",
@@ -1903,7 +1917,7 @@
         "activations_limit":  1,
         "rewards":  [
                         {
-                            "value":  10,
+                            "value":  12,
                             "type":  "balance"
                         }
                     ],
@@ -1911,7 +1925,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  10
     },
     {
         "code":  "FLASHAURA",
@@ -1920,7 +1935,7 @@
         "activations_limit":  1,
         "rewards":  [
                         {
-                            "value":  8,
+                            "value":  11,
                             "type":  "balance"
                         }
                     ],
@@ -1928,10 +1943,29 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  10
     },
     {
         "code":  "PIXELVAULT",
+        "rarity":  "common",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  13,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 },
+        "weight":  8
+    },
+    {
+        "code":  "STARPICK",
         "rarity":  "common",
         "group":  "wheel",
         "activations_limit":  1,
@@ -1945,45 +1979,12 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
-    },
-    {
-        "code":  "STARPICK",
-        "rarity":  "common",
-        "group":  "wheel",
-        "activations_limit":  1,
-        "rewards":  [
-                        {
-                            "value":  6,
-                            "type":  "balance"
-                        }
-                    ],
-        "hint":  {
-                     "ru":  "Одноразовый код из рулетки сайта.",
-                     "en":  "One-time code from the website wheel.",
-                     "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  12
     },
     {
         "code":  "VORTEXPAY",
         "rarity":  "rare",
-        "group":  "wheel",
-        "activations_limit":  1,
-        "rewards":  [
-                        {
-                            "value":  11,
-                            "type":  "balance"
-                        }
-                    ],
-        "hint":  {
-                     "ru":  "Одноразовый код из рулетки сайта.",
-                     "en":  "One-time code from the website wheel.",
-                     "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
-    },
-    {
-        "code":  "AURASPIN",
-        "rarity":  "epic",
         "group":  "wheel",
         "activations_limit":  1,
         "rewards":  [
@@ -1996,7 +1997,26 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  7
+    },
+    {
+        "code":  "AURASPIN",
+        "rarity":  "epic",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  17,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 },
+        "weight":  4
     },
     {
         "code":  "HYPEBOX",
@@ -2013,11 +2033,30 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  1
     },
     {
         "code":  "GLEAMJET",
         "rarity":  "rare",
+        "group":  "wheel",
+        "activations_limit":  1,
+        "rewards":  [
+                        {
+                            "value":  15,
+                            "type":  "balance"
+                        }
+                    ],
+        "hint":  {
+                     "ru":  "Одноразовый код из рулетки сайта.",
+                     "en":  "One-time code from the website wheel.",
+                     "es":  "Codigo de un solo uso de la ruleta del sitio."
+                 },
+        "weight":  8
+    },
+    {
+        "code":  "NIGHTDROP",
+        "rarity":  "common",
         "group":  "wheel",
         "activations_limit":  1,
         "rewards":  [
@@ -2030,24 +2069,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
-    },
-    {
-        "code":  "NIGHTDROP",
-        "rarity":  "common",
-        "group":  "wheel",
-        "activations_limit":  1,
-        "rewards":  [
-                        {
-                            "value":  7,
-                            "type":  "balance"
-                        }
-                    ],
-        "hint":  {
-                     "ru":  "Одноразовый код из рулетки сайта.",
-                     "en":  "One-time code from the website wheel.",
-                     "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  14
     },
     {
         "code":  "NOVARISE",
@@ -2065,7 +2088,8 @@
                      "ru":  "Одноразовый код из рулетки сайта.",
                      "en":  "One-time code from the website wheel.",
                      "es":  "Codigo de un solo uso de la ruleta del sitio."
-                 }
+                 },
+        "weight":  2
     },
     {
         "code":  "CASH101",
