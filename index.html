@@ -1,0 +1,348 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="aurapay" content="69d579a39e07e">
+  <title data-i18n="index.title">NameHunter</title>
+  <meta name="description" data-i18n-content="index.desc" content="NameHunter - сервис внутри Telegram для поиска юзернеймов, AURUM, бонусов и рулетки подарков." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html">
+        <div class="brand-mark">N</div>
+        <div>
+          <strong>NameHunter</strong>
+          <span data-i18n="common.brand_sub">Поиск ников, бонусы и подарки</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a class="is-active" href="./index.html" data-i18n="common.nav.home">Главная</a>
+        <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
+        <a href="./aurum.html" data-i18n="common.nav.aurum">AURUM</a>
+        <a href="./updates.html" data-i18n="common.nav.updates">Обновления</a>
+        <a href="./privacy.html" data-i18n="common.nav.privacy">Политика</a>
+        <a href="./terms.html" data-i18n="common.nav.terms">Условия</a>
+        <a href="./contacts.html" data-i18n="common.nav.contacts">Контакты</a>
+        <div class="nav-tools">
+          <div class="tool-dropdown">
+            <button class="view-trigger" type="button" id="view-trigger">Вид</button>
+            <div class="view-menu" id="view-menu">
+              <button class="view-btn" type="button" data-density-mode="default">100%</button>
+              <button class="view-btn" type="button" data-density-mode="compact">92%</button>
+              <button class="view-btn" type="button" data-density-mode="tight">86%</button>
+            </div>
+          </div>
+          <div class="tool-dropdown">
+            <button class="lang-trigger" type="button" id="lang-trigger">Русский</button>
+            <div class="lang-menu" id="lang-menu">
+              <button class="lang-btn" type="button" data-lang="ru">Русский</button>
+              <button class="lang-btn" type="button" data-lang="en">English</button>
+              <button class="lang-btn" type="button" data-lang="es">Español</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card glass fade">
+          <div class="badge" data-i18n="index.badge">Сервис, в который хочется возвращаться</div>
+          <h1>
+            <span class="gradient">NameHunter</span><br>
+            <span data-i18n="index.h1">объединяет поиск, AURUM, бонусы и ежедневные подарки</span>
+          </h1>
+          <p class="hero-text" data-i18n="index.intro">
+            Ищи свободные Telegram-юзернеймы, активируй бонусы, открывай AURUM и забирай ежедневные подарки внутри одного сервиса.
+          </p>
+          <div class="hero-stats">
+            <div class="hero-stat"><strong data-i18n="index.stat1t">Поиск</strong><span data-i18n="index.stat1d">длина, слово, маска и пакеты</span></div>
+            <div class="hero-stat"><strong data-i18n="index.stat2t">AURUM</strong><span data-i18n="index.stat2d">быстрый режим и привилегии</span></div>
+            <div class="hero-stat"><strong data-i18n="index.stat3t">Подарки</strong><span data-i18n="index.stat3d">промокоды, рулетка и бонусы</span></div>
+          </div>
+          <div class="tags">
+            <span data-i18n="index.tag1">Свободные юзернеймы</span>
+            <span data-i18n="index.tag2">Ежедневные промокоды</span>
+            <span data-i18n="index.tag3">Рулетка подарков</span>
+            <span data-i18n="index.tag4">Внутренний баланс</span>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="index.cta1">Запустить бота</a>
+            <a class="btn secondary" href="./updates.html" data-i18n="index.cta2">Что нового</a>
+          </div>
+        </div>
+
+        <aside class="promo-stage glass fade d1">
+          <div class="stage-top">
+            <span class="stage-pill" data-i18n="index.promoTop1">Промокоды NameHunter</span>
+            <span class="stage-pill" data-i18n="index.promoTop2">10 промокодов в день</span>
+          </div>
+          <div class="promo-box">
+            <div class="promo-kicker" data-i18n="index.promoKick">Промокоды на сегодня</div>
+            <div class="promo-subline" data-i18n="index.promoSub">Каждый день в 05:00 МСК сайт собирает новую десятку промокодов и крутит их в живом формате.</div>
+            <div class="promo-rotator" id="promo-rotator">
+              <div class="promo-label" data-i18n="common.promo_day">Промокоды дня</div>
+              <div class="promo-code" id="promo-code">RUBDROP001</div>
+              <div class="promo-note" id="promo-note">Ежедневный денежный промокод из основной ленты сайта.</div>
+              <div class="promo-meta">
+                <div class="promo-timer"><span data-i18n="common.next_switch">Следующая смена:</span> <b id="promo-timer">00:00:00</b></div>
+                <div class="promo-timer"><span data-i18n="common.daily_refresh">Новая подборка:</span> <b id="promo-day-reset">00:00:00</b></div>
+                <div class="promo-status"><span data-i18n="common.today_count">Сегодня:</span> <b id="promo-day-count">1 / 10</b></div>
+              </div>
+              <div class="promo-tools">
+                <button class="promo-copy" id="promo-copy" type="button" data-i18n="common.copy">Скопировать</button>
+                <a class="promo-open" href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="common.open_bot">Открыть бота</a>
+              </div>
+              <div class="promo-toast" id="promo-toast" data-i18n="common.copied">Промокод скопирован</div>
+            </div>
+
+            <div class="wheel-launch">
+              <button class="wheel-launch-btn" id="wheel-open" type="button" data-i18n="index.wheelOpen">Открыть рулетку</button>
+              <div class="wheel-launch-note" data-i18n="index.wheelNote">Ежедневная рулетка с реальными подарками и живой прокруткой.</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-shell">
+        <div class="head fade">
+          <div class="kicker" data-i18n="index.whyKick">Почему сервис удобен</div>
+          <h2 class="title" data-i18n="index.whyTitle">Все важные сценарии собраны рядом и не перегружают интерфейс</h2>
+          <p class="subtitle" data-i18n="index.whySub">Главная страница стала чище: быстрый вход в бота, витрина промокодов, отдельная рулетка и переходы к основным разделам.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="card glass feature-card fade d1"><div class="icon">🔎</div><h3 data-i18n="index.f1t">Умный поиск</h3><p data-i18n="index.f1d">Подбор свободных юзернеймов по длине, слову, маске и пакетам без лишней путаницы.</p></article>
+          <article class="card glass feature-card fade d2"><div class="icon">💎</div><h3 data-i18n="index.f2t">AURUM</h3><p data-i18n="index.f2d">Премиум-режим с быстрыми сценариями, дополнительными лимитами и приятными бонусами.</p></article>
+          <article class="card glass feature-card fade d3"><div class="icon">🎁</div><h3 data-i18n="index.f3t">Подарки и бонусы</h3><p data-i18n="index.f3d">Ежедневные промокоды, рулетка, награды за активность и внутренняя бонусная логика.</p></article>
+          <article class="card glass feature-card fade d1"><div class="icon">⚙️</div><h3 data-i18n="index.f4t">Стабильность</h3><p data-i18n="index.f4d">Сайт и бот развиваются параллельно: обновления, полировка интерфейса и новые сценарии работы.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="wheel-modal" id="wheel-modal" aria-hidden="true">
+    <div class="wheel-modal-backdrop" id="wheel-close"></div>
+    <div class="wheel-panel glass">
+      <button class="wheel-close-x" id="wheel-close-x" type="button">×</button>
+      <div class="promo-kicker">Рулетка подарков</div>
+      <div class="wheel-modal-sub">Крути рулетку и забирай ежедневный подарок. Сам код открывается только после копирования.</div>
+      <div class="wheel-machine">
+        <div class="wheel-track-wrap">
+          <div class="wheel-pointer"></div>
+          <div class="wheel-track" id="wheel-track"></div>
+        </div>
+      </div>
+      <div class="wheel-result glass">
+        <div class="wheel-code" id="wheel-code">Крути и забирай подарок</div>
+        <div class="wheel-note" id="wheel-note"></div>
+        <div class="wheel-status" id="wheel-status"></div>
+      </div>
+      <div class="promo-tools wheel-tools">
+        <button class="promo-copy" id="wheel-spin" type="button">Крутить рулетку</button>
+        <button class="promo-open" id="wheel-copy" type="button">Скопировать промокод</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer">
+      <div class="footer-note" data-i18n="common.footer_index">© NameHunter. Telegram-сервис для поиска ников, бонусов и подарков.</div>
+      <div class="links">
+        <a href="./about.html" data-i18n="common.nav.about">О сервисе</a>
+        <a href="./updates.html" data-i18n="common.nav.updates">Обновления</a>
+        <a href="https://t.me/NameHunterRobot" target="_blank" rel="noopener noreferrer" data-i18n="common.open_bot">Открыть бота</a>
+      </div>
+    </div>
+  </footer>
+
+  <script id="i18n-data" type="application/json">
+  {
+    "ru": {
+      "common": {
+        "brand_sub": "Поиск ников, бонусы и подарки",
+        "nav": {
+          "home": "Главная",
+          "about": "О сервисе",
+          "aurum": "AURUM",
+          "updates": "Обновления",
+          "privacy": "Политика",
+          "terms": "Условия",
+          "contacts": "Контакты"
+        },
+        "promo_day": "Промокоды дня",
+        "next_switch": "Следующая смена:",
+        "daily_refresh": "Новая подборка:",
+        "today_count": "Сегодня:",
+        "copy": "Скопировать",
+        "open_bot": "Открыть бота",
+        "copied": "Промокод скопирован",
+        "footer_index": "© NameHunter. Telegram-сервис для поиска ников, бонусов и подарков."
+      },
+      "index": {
+        "title": "NameHunter",
+        "desc": "NameHunter - сервис внутри Telegram для поиска юзернеймов, AURUM, бонусов и рулетки подарков.",
+        "badge": "Сервис, в который хочется возвращаться",
+        "h1": "объединяет поиск, AURUM, бонусы и ежедневные подарки",
+        "intro": "Ищи свободные Telegram-юзернеймы, активируй бонусы, открывай AURUM и забирай ежедневные подарки внутри одного сервиса.",
+        "stat1t": "Поиск",
+        "stat1d": "длина, слово, маска и пакеты",
+        "stat2t": "AURUM",
+        "stat2d": "быстрый режим и привилегии",
+        "stat3t": "Подарки",
+        "stat3d": "промокоды, рулетка и бонусы",
+        "tag1": "Свободные юзернеймы",
+        "tag2": "Ежедневные промокоды",
+        "tag3": "Рулетка подарков",
+        "tag4": "Внутренний баланс",
+        "cta1": "Запустить бота",
+        "cta2": "Что нового",
+        "promoTop1": "Промокоды NameHunter",
+        "promoTop2": "10 промокодов в день",
+        "promoKick": "Промокоды на сегодня",
+        "promoSub": "Каждый день в 05:00 МСК сайт собирает новую десятку промокодов и крутит их в живом формате.",
+        "wheelOpen": "Открыть рулетку",
+        "wheelNote": "Ежедневная рулетка с реальными подарками и живой прокруткой.",
+        "whyKick": "Почему сервис удобен",
+        "whyTitle": "Все важные сценарии собраны рядом и не перегружают интерфейс",
+        "whySub": "Главная страница стала чище: быстрый вход в бота, витрина промокодов, отдельная рулетка и переходы к основным разделам.",
+        "f1t": "Умный поиск",
+        "f1d": "Подбор свободных юзернеймов по длине, слову, маске и пакетам без лишней путаницы.",
+        "f2t": "AURUM",
+        "f2d": "Премиум-режим с быстрыми сценариями, дополнительными лимитами и приятными бонусами.",
+        "f3t": "Подарки и бонусы",
+        "f3d": "Ежедневные промокоды, рулетка, награды за активность и внутренняя бонусная логика.",
+        "f4t": "Стабильность",
+        "f4d": "Сайт и бот развиваются параллельно: обновления, полировка интерфейса и новые сценарии работы."
+      }
+    },
+    "en": {
+      "common": {
+        "brand_sub": "Username search, bonuses and gifts",
+        "nav": {
+          "home": "Home",
+          "about": "About",
+          "aurum": "AURUM",
+          "updates": "Updates",
+          "privacy": "Privacy",
+          "terms": "Terms",
+          "contacts": "Contacts"
+        },
+        "promo_day": "Promo codes of the day",
+        "next_switch": "Next switch:",
+        "daily_refresh": "New daily pack:",
+        "today_count": "Today:",
+        "copy": "Copy",
+        "open_bot": "Open bot",
+        "copied": "Promo copied",
+        "footer_index": "© NameHunter. Telegram service for username search, bonuses and gifts."
+      },
+      "index": {
+        "title": "NameHunter",
+        "desc": "NameHunter is a Telegram-based service for username search, AURUM, bonuses and daily gift roulette.",
+        "badge": "A service you want to come back to",
+        "h1": "combines search, AURUM, bonuses and daily gifts",
+        "intro": "Find free Telegram usernames, activate bonuses, unlock AURUM and collect daily gifts inside one service.",
+        "stat1t": "Search",
+        "stat1d": "length, word, mask and packs",
+        "stat2t": "AURUM",
+        "stat2d": "faster mode and privileges",
+        "stat3t": "Gifts",
+        "stat3d": "promo codes, roulette and bonuses",
+        "tag1": "Free usernames",
+        "tag2": "Daily promo codes",
+        "tag3": "Gift roulette",
+        "tag4": "Internal balance",
+        "cta1": "Launch bot",
+        "cta2": "What is new",
+        "promoTop1": "NameHunter promo codes",
+        "promoTop2": "10 promo codes a day",
+        "promoKick": "Promos for today",
+        "promoSub": "Every day at 05:00 MSK the site builds a new set of ten promo codes and rotates them live.",
+        "wheelOpen": "Open roulette",
+        "wheelNote": "Daily roulette with real rewards and live spin animation.",
+        "whyKick": "Why it feels convenient",
+        "whyTitle": "Important scenarios are kept close and the interface stays clean",
+        "whySub": "The home page is cleaner now: quick bot entry, promo showcase, separate roulette and links to the main sections.",
+        "f1t": "Smart search",
+        "f1d": "Find free usernames by length, word, mask and packs without extra confusion.",
+        "f2t": "AURUM",
+        "f2d": "Premium mode with faster flows, extra limits and useful perks.",
+        "f3t": "Gifts and bonuses",
+        "f3d": "Daily promo codes, roulette, activity rewards and internal bonus logic.",
+        "f4t": "Stability",
+        "f4d": "The website and the bot evolve together with fixes, polish and new usage flows."
+      }
+    },
+    "es": {
+      "common": {
+        "brand_sub": "Busqueda de usernames, bonos y regalos",
+        "nav": {
+          "home": "Inicio",
+          "about": "Servicio",
+          "aurum": "AURUM",
+          "updates": "Actualizaciones",
+          "privacy": "Privacidad",
+          "terms": "Condiciones",
+          "contacts": "Contactos"
+        },
+        "promo_day": "Promocodes del dia",
+        "next_switch": "Siguiente cambio:",
+        "daily_refresh": "Nuevo pack diario:",
+        "today_count": "Hoy:",
+        "copy": "Copiar",
+        "open_bot": "Abrir bot",
+        "copied": "Promocode copiado",
+        "footer_index": "© NameHunter. Servicio de Telegram para buscar usernames, bonos y regalos."
+      },
+      "index": {
+        "title": "NameHunter",
+        "desc": "NameHunter es un servicio dentro de Telegram para busqueda de usernames, AURUM, bonos y ruleta diaria.",
+        "badge": "Un servicio al que quieres volver",
+        "h1": "combina busqueda, AURUM, bonos y regalos diarios",
+        "intro": "Busca usernames libres de Telegram, activa bonos, abre AURUM y recoge regalos diarios dentro de un solo servicio.",
+        "stat1t": "Busqueda",
+        "stat1d": "longitud, palabra, mascara y packs",
+        "stat2t": "AURUM",
+        "stat2d": "modo rapido y privilegios",
+        "stat3t": "Regalos",
+        "stat3d": "promocodes, ruleta y bonos",
+        "tag1": "Usernames libres",
+        "tag2": "Promocodes diarios",
+        "tag3": "Ruleta de regalos",
+        "tag4": "Saldo interno",
+        "cta1": "Abrir bot",
+        "cta2": "Que hay de nuevo",
+        "promoTop1": "Promocodes NameHunter",
+        "promoTop2": "10 promocodes al dia",
+        "promoKick": "Promocodes de hoy",
+        "promoSub": "Cada dia a las 05:00 MSK el sitio arma un nuevo grupo de diez promocodes y los rota en vivo.",
+        "wheelOpen": "Abrir ruleta",
+        "wheelNote": "Ruleta diaria con premios reales y animacion de giro.",
+        "whyKick": "Por que es comodo",
+        "whyTitle": "Los escenarios importantes estan cerca y la interfaz se mantiene limpia",
+        "whySub": "La pagina principal ahora es mas limpia: entrada rapida al bot, vitrina de promocodes, ruleta separada y accesos a las secciones clave.",
+        "f1t": "Busqueda inteligente",
+        "f1d": "Encuentra usernames libres por longitud, palabra, mascara y packs sin confusion extra.",
+        "f2t": "AURUM",
+        "f2d": "Modo premium con flujos rapidos, limites extra y ventajas utiles.",
+        "f3t": "Regalos y bonos",
+        "f3d": "Promocodes diarios, ruleta, recompensas por actividad y logica interna de bonus.",
+        "f4t": "Estabilidad",
+        "f4d": "El sitio y el bot evolucionan juntos con mejoras, pulido y nuevos escenarios de uso."
+      }
+    }
+  }
+  </script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
+
